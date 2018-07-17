@@ -15,19 +15,12 @@ public class QuickSort {
         if (from >= to) return;
         int element = a[to];
         int l = from - 1;
-        int r = from - 1;
         int u = to - 1;
         for (int i = from; i <= u; i++) {
             if (a[i] <= element){
                 l++;
-                r++;
                 int buf = a[l];
                 a[l] = a[i];
-                a[i] = buf;
-            } else {
-                r++;
-                int buf = a[r];
-                a[r] = a[i];
                 a[i] = buf;
             }
         }
