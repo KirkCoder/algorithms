@@ -5,53 +5,49 @@ import java.util.Arrays;
 // O(n*Log*n)
 public class MergeSort {
     public static void main(String[] args) {
-        int[] res = sort(arr);
-        for (int i = 0; i < res.length; i++) {
-            System.out.println(res[i]);
-        }
+        int[] arr = {78, 2, 1, 14, 255, -6, 3, 2, -19, 102, 7};
+        print(arr);
+        print(sort(arr));
     }
 
-    private static int[] arr = {108, 15, 50, 4, 8, 42, 23, 16, 71};
-//    private static int[] arr = {5, 1, 4, 12, 0, 7, 214, -1, 4};
-//    static int[]arr = {1, 4, 5, 12};
-
-    private static int[] sort(int[] a) {
-        if (a.length < 2) return a;
-        int mid = (a.length / 2);
-        int[] left = Arrays.copyOfRange(a, 0, mid);
-        int[] right = Arrays.copyOfRange(a, mid, a.length);
-        return merge(sort(left), sort(right));
+    public static int[] sort(int[] arr) {
+        if (arr.length == 1) return arr;
+        int middle = arr.length / 2;
+        return merge(
+                sort(Arrays.copyOfRange(arr, 0, middle)),
+                sort(Arrays.copyOfRange(arr, middle, arr.length))
+        );
     }
 
     private static int[] merge(int[] left, int[] right) {
+        int[] res = new int[left.length + right.length];
 
-        int length = left.length + right.length;
-        int[] ar = new int[length];
+        int iLeft = 0;
+        int iRight = 0;
+        int iRes = 0;
 
-        int i1 = 0;
-        int i2 = 0;
-        int i = 0;
-
-        while (i1 < left.length && i2 < right.length && i < length) {
-            if (left[i1] > right[i2]) {
-                ar[i++] = right[i2++];
+        while (iLeft < left.length && iRight < right.length) {
+            if (left[iLeft] <= right[iRight]) {
+                res[iRes++] = left[iLeft++];
             } else {
-                ar[i++] = left[i1++];
+                res[iRes++] = right[iRight++];
             }
         }
 
-        while (i1 < left.length){
-            if (i < length){
-                ar[i++] = left[i1++];
-            }
+        while (iLeft < left.length) {
+            res[iRes++] = left[iLeft++];
         }
 
-        while (i2 < right.length){
-            if (i < length){
-                ar[i++] = right[i2++];
-            }
+        while (iRight < right.length) {
+            res[iRes++] = right[iRight++];
         }
+        return res;
+    }
 
-        return ar;
+    private static void print(int[] array) {
+        for (int value : array) {
+            System.out.print(value + " ");
+        }
+        System.out.println(" ");
     }
 }
