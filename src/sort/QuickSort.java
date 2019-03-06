@@ -2,7 +2,7 @@ package sort;
 
 // O(n^2) or O(n*Log*n)
 public class QuickSort {
-    private static int[] arr = {23, 42, 4, 16, 8, 15};
+    private static int[] arr = {78, 2, 1, 14, 255, -6, 3, 2, -19, 102, 7};
 
     public static void main(String[] args) {
         sort(arr, 0, arr.length - 1);
