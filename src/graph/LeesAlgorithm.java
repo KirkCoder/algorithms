@@ -1,3 +1,5 @@
+package graph;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,7 +12,8 @@ public class LeesAlgorithm {
             {0, 0, 2, 0, 4},
             {0, 0, 0, 3, 0},
             {0, 1, 2, 0, 4},
-            {0, 0, 0, 3, 0}};
+            {0, 0, 0, 3, 0}
+    };
 
     List<Node> nodes = new ArrayList<>();
 
@@ -40,7 +43,7 @@ public class LeesAlgorithm {
         ArrayList<Integer> next = new ArrayList<>();
         for (int i = 0; i < graph[start].length; i++) {
             int n = graph[start][i];
-            if (n != NO_ZIP && nodes.get(n).weight == NO_STEPS){
+            if (n != NO_ZIP && nodes.get(n).weight == NO_STEPS) {
                 nodes.get(n).weight = nodes.get(start).weight + ONE_STEP;
 
                 for (Integer nod : nodes.get(start).path) {
@@ -54,14 +57,13 @@ public class LeesAlgorithm {
             wafe(n);
         }
     }
-}
+    class Node {
+        int numb;
+        List<Integer> path = new ArrayList<>();
+        int weight = LeesAlgorithm.NO_STEPS;
 
-class Node {
-    int numb;
-    List<Integer> path = new ArrayList<>();
-    int weight = LeesAlgorithm.NO_STEPS;
-
-    public Node(int numb) {
-        this.numb = numb;
+        public Node(int numb) {
+            this.numb = numb;
+        }
     }
 }
