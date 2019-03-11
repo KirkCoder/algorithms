@@ -40,12 +40,12 @@ public class TopologicalSort {
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1}, //12
                 {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, //13
         };
-        List<Node> list = toGraphList(graph);
-        print(list);
-        print(sort(list));
+        List<Node> list = Utils.toGraphList(graph);
+        Utils.print(list);
+        Utils.print(sort(list));
     }
 
-    private static List<Node> sort(List<Node> list) {
+    public static List<Node> sort(List<Node> list) {
         int[] withIncome = new int[list.size()];
         List<Node> res = new ArrayList<>(list.size());
         for (int i = 0; i < list.size(); i++) {
@@ -65,34 +65,11 @@ public class TopologicalSort {
                 res.add(item);
                 withIncome[i] = -1;
                 for (int j = 0; j < item.getOut().size(); j++) {
-                    withIncome[item.getOut().get(j).getValue()]--;
+                    withIncome[item.getOut().get(j).getIndex()]--;
                 }
             }
             if (withIncome[i] > 0) isNotFinish = true;
         }
         if (isNotFinish && !isCyclic) findNext(list, withIncome, res);
-    }
-
-    private static void print(List<Node> list){
-        for (Node node : list) {
-            System.out.print(node.getValue() + ", ");
-        }
-        System.out.println(" ");
-    }
-
-    private static List<Node> toGraphList(int[][] graph) {
-        List<Node> list = new ArrayList<>(graph.length);
-        for (int i = 0; i < graph.length; i++) {
-            list.add(new Node(i));
-        }
-        for (int i = 0; i < graph.length; i++) {
-            for (int j = 0; j < graph.length; j++) {
-                if (graph[i][j] == 1) {
-                    list.get(i).getOut().add(list.get(j));
-                    list.get(j).getIncome().add(list.get(i));
-                }
-            }
-        }
-        return list;
     }
 }
