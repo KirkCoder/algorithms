@@ -27,4 +27,23 @@ class Utils {
         }
         System.out.println(" ");
     }
+
+    static void print(int[][] arr) {
+        for(int i = 0; i < arr.length; i++){
+            for (int j = 0; j < arr[i].length; j++){
+                System.out.print(arr[i][j] + ", ");
+            }
+            System.out.println(" ");
+        }
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
+    }
+
+    static void printVisited(List<Node> list){
+        for (Node node : list) {
+            if (node.isVisited()) System.out.print("visited " + node.getIndex() + ", ");
+        }
+        System.out.println(" ");
+    }
 }

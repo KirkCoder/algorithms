@@ -8,6 +8,7 @@ import java.util.Map;
 public class Node {
 
     private int index;
+    private boolean visited = false;
 
     private List<Node> income = new ArrayList<>();
     private List<Node> out = new ArrayList<>();
@@ -31,5 +32,13 @@ public class Node {
 
     public int getIndex() {
         return index;
+    }
+
+    public boolean isVisited() {
+        return visited;
+    }
+
+    public void setVisited(boolean visited) {
+        this.visited = visited;
     }
 }
