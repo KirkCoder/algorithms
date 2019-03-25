@@ -1,4 +1,4 @@
-package linked;
+package tasks;
 
 public class Linked<T> {
 
