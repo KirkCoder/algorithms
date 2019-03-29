@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tasks/Exponentiation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Knapsack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/KnapsackProblem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/KnapsackProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Exponentiation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Exponentiation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,15 +50,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tasks/Exponentiation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="54">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
               <folding>
                 <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tasks/KnapsackProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/objects/Global.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19548">
+              <caret line="815" column="25" selection-start-line="815" selection-start-column="25" selection-end-line="815" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -63,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StrictMath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="632" lean-forward="true" selection-start-line="632" selection-end-line="632" />
+            <state relative-caret-position="16308">
+              <caret line="632" selection-start-line="632" selection-end-line="632" />
             </state>
           </provider>
         </entry>
@@ -174,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/linked/Linked.java" />
         <option value="$PROJECT_DIR$/src/tasks/TowerOfHanoi.java" />
         <option value="$PROJECT_DIR$/src/tasks/Exponentiation.java" />
+        <option value="$PROJECT_DIR$/src/tasks/KnapsackProblem.java" />
       </list>
     </option>
   </component>
@@ -188,6 +214,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,12 +238,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553717802680" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553885913436" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -230,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Exponentiation">
+  <component name="RunManager" selected="Application.KnapsackProblem">
     <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.BreadthFirstSearch" />
       <module name="algorithms" />
@@ -244,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.DepthFirstSearch" />
+    <configuration name="Exponentiation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.Exponentiation" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graph.*" />
+          <option name="PATTERN" value="tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,8 +283,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exponentiation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Exponentiation" />
+    <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.KnapsackProblem" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -301,18 +327,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BreadthFirstSearch" />
-      <item itemvalue="Application.DepthFirstSearch" />
       <item itemvalue="Application.Linked" />
       <item itemvalue="Application.TowerOfHanoi" />
       <item itemvalue="Application.Exponentiation" />
+      <item itemvalue="Application.KnapsackProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.Exponentiation" />
         <item itemvalue="Application.TowerOfHanoi" />
         <item itemvalue="Application.BreadthFirstSearch" />
         <item itemvalue="Application.Linked" />
-        <item itemvalue="Application.DepthFirstSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553545167323</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Exponentiation (pow) by log(N)">
+      <created>1553717889533</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1553717889534</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView">
@@ -427,7 +460,7 @@
     <frame x="-1688" y="-101" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22564735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23304562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -436,8 +469,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3159722" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5300926" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0787037" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30787036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
@@ -471,7 +504,8 @@
     <MESSAGE value="add BreadthFirstSearch" />
     <MESSAGE value="add Linked with revers" />
     <MESSAGE value="Tower Of Hanoi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tower Of Hanoi" />
+    <MESSAGE value="Exponentiation (pow) by log(N)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exponentiation (pow) by log(N)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -494,6 +528,31 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+        <expression-string>arr[j] + sum</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[j] + max</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr[j] + sum &lt;= max</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>j != i &amp;&amp; arr[j] + sum &lt;= max</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>exp % 2 == 0</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -510,16 +569,6 @@
       </expression>
       <expression>
         <expression-string>9 / 2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>list.get(from).getOutWeight()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>list.get(from).getOutWeight().get(to)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -719,6 +768,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="643" column="26" selection-start-line="643" selection-start-column="26" selection-end-line="643" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/graph/DepthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -736,6 +792,38 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/TowerOfHanoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/Exponentiation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/objects/Global.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19548">
+          <caret line="815" column="25" selection-start-line="815" selection-start-column="25" selection-end-line="815" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StrictMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16308">
+          <caret line="632" selection-start-line="632" selection-end-line="632" />
         </state>
       </provider>
     </entry>
@@ -781,34 +869,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/TowerOfHanoi.java">
+    <entry file="file://$PROJECT_DIR$/src/tasks/KnapsackProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/StrictMath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="632" lean-forward="true" selection-start-line="632" selection-end-line="632" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="643" column="26" selection-start-line="643" selection-start-column="26" selection-end-line="643" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/Exponentiation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="1215">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#125#126#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
           </folding>
         </state>
       </provider>
