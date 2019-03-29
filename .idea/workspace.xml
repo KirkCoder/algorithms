@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Knapsack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/KnapsackProblem.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/KnapsackProblem.java" afterDir="false" />
+    <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="Knapsack Problem With weight and price">
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/KnapsackProblemWithPrise$Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/KnapsackProblemWithPrise$Knapsack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/KnapsackProblemWithPrise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/KnapsackProblemWithPrice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Exponentiation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Exponentiation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Knapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Knapsack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/KnapsackProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/KnapsackProblem.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,14 +65,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tasks/KnapsackProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1215">
-              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+            <state relative-caret-position="503">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="6" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1389#1390#0" expanded="true" />
                 <element signature="e#1431#1432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tasks/KnapsackProblemWithPrice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,7 +176,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>BreadthFirstSearch</find>
+      <find>Integer</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Item</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -200,6 +221,8 @@
         <option value="$PROJECT_DIR$/src/tasks/TowerOfHanoi.java" />
         <option value="$PROJECT_DIR$/src/tasks/Exponentiation.java" />
         <option value="$PROJECT_DIR$/src/tasks/KnapsackProblem.java" />
+        <option value="$PROJECT_DIR$/src/tasks/KnapsackProblemWithPrise.java" />
+        <option value="$PROJECT_DIR$/src/tasks/KnapsackProblemWithPrice.java" />
       </list>
     </option>
   </component>
@@ -241,7 +264,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553885913436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553888219422" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -256,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.KnapsackProblem">
+  <component name="RunManager" selected="Application.KnapsackProblemWithPrice">
     <configuration name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.BreadthFirstSearch" />
       <module name="algorithms" />
@@ -296,8 +319,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Linked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tasks.Linked" />
+    <configuration name="KnapsackProblemWithPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tasks.KnapsackProblemWithPrice" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -305,9 +328,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <RunnerSettings RunnerId="Debug with VisualVM">
-        <option name="visualVMId" value="956244682654500" />
-      </RunnerSettings>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -327,18 +347,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BreadthFirstSearch" />
-      <item itemvalue="Application.Linked" />
       <item itemvalue="Application.TowerOfHanoi" />
       <item itemvalue="Application.Exponentiation" />
       <item itemvalue="Application.KnapsackProblem" />
+      <item itemvalue="Application.KnapsackProblemWithPrice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KnapsackProblemWithPrice" />
         <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.Exponentiation" />
         <item itemvalue="Application.TowerOfHanoi" />
         <item itemvalue="Application.BreadthFirstSearch" />
-        <item itemvalue="Application.Linked" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553717889534</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Knapsack Problem">
+      <created>1553886249455</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1553886249456</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -469,7 +496,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0787037" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37037036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30787036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -505,7 +532,8 @@
     <MESSAGE value="add Linked with revers" />
     <MESSAGE value="Tower Of Hanoi" />
     <MESSAGE value="Exponentiation (pow) by log(N)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exponentiation (pow) by log(N)" />
+    <MESSAGE value="Knapsack Problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Knapsack Problem" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -871,11 +899,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tasks/KnapsackProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="503">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="6" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
             <element signature="e#1431#1432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/KnapsackProblemWithPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
           </folding>
         </state>
       </provider>
