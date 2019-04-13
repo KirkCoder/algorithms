@@ -1,54 +1,36 @@
 package sort;
 
-//O*n^2
+//O(n^2) O(n*logN)
 public class InsertionShellSort {
     public static void main(String[] args) {
-        //sort();
-		
-		int inc = arr.length / 2;
-        while (inc >= 1){
-            for (int i = 0; i < inc; i++){
-                shell(i, inc);
-            }
-            inc = inc / 2;
-        }
-		
-        sout();
+        int[] arr = SortUtils.getArray();
+        SortUtils.print(arr);
+        SortUtils.print(sort(arr));
     }
 
-    private static int[] arr = {108, 15, 50, 4, 8, 42, 23, 16, 71};
+    private static int[] sort(int[] arr) {
+        int index = arr.length / 3;
+        while (index >= 1) {
+            for (int i = 0; i < index; i++) {
+                shell(arr, i, index);
+                SortUtils.print(arr);
+            }
+            index = index / 3;
+        }
+        return arr;
+    }
 
-    private static void sort(){
-        for (int i = 1; i < arr.length; i++) {
+    private static void shell(int[] arr, int start, int index) {
+        for (int i = start; i < arr.length; i = i + index) {
             int element = arr[i];
-            for (int j = i; j > 0; j--) {
-                if (arr[j - 1] > element){
-                    arr[j] = arr[j - 1];
-                    arr[j - 1] = element;
+            for (int j = i - index; j > -1; j = j - index) {
+                if (arr[j] > element) {
+                    arr[j + index] = arr[j];
+                    arr[j] = element;
+                } else {
+                    break;
                 }
             }
-        }
-    }
-
-	private static void shell(int s, int inc) {
-        for (int i = s; i < arr.length - 1; i = i + inc) {
-            if (i + inc > arr.length - 1){
-                break;
-            } else {
-                for (int j = i + inc; j - inc > 0; j = j - inc) {
-                    if (arr[j - inc] > arr[i]){
-                        int buf = arr[j - inc];
-                        arr[j - inc] = arr[i];
-                        arr[j] = buf;
-                    }
-                }
-            }
-        }
-    }
-	
-    private static void sout(){
-        for (int i : arr) {
-            System.out.println(i);
         }
     }
 }

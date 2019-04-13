@@ -2,32 +2,38 @@ package sort;
 
 // O(n^2) or O(n*Log*n)
 public class QuickSort {
-    private static int[] arr = {78, 2, 1, 14, 255, -6, 3, 2, -19, 102, 7};
 
     public static void main(String[] args) {
-        sort(arr, 0, arr.length - 1);
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
-        }
+        int[] arr = SortUtils.getArray();
+        SortUtils.print(arr);
+        SortUtils.print(sort(arr));
     }
 
-    private static void sort(int[]a, int from, int to){
-        if (from >= to) return;
-        int element = a[to];
-        int l = from - 1;
-        int u = to - 1;
-        for (int i = from; i <= u; i++) {
-            if (a[i] <= element){
-                l++;
-                int buf = a[l];
-                a[l] = a[i];
-                a[i] = buf;
+    private static int[] sort(int[] arr){
+        quicSort(arr, 0, arr.length - 1);
+        return arr;
+    }
+
+    private static void quicSort(int[] arr, int from, int to){
+        if(from >= to) return;
+        int index = (from + to) / 2;
+        int element = arr[index];
+        arr[index] = arr[to];
+        arr[to] = element;
+        int separator = from - 1;
+        for(int i = from; i < to; i++){
+            if(arr[i] < element){
+                separator++;
+                int tmp = arr[separator];
+                arr[separator] = arr[i];
+                arr[i] = tmp;
             }
         }
-        int buf = a[l + 1];
-        a[l + 1] = a[to];
-        a[to] = buf;
-        sort(a, 0, l - 1);
-        sort(a, l + 1, to);
+        separator++;
+        int tmp = arr[separator];
+        arr[separator] = element;
+        arr[to] = tmp;
+        quicSort(arr, from, separator - 1);
+        quicSort(arr, separator + 1, to);
     }
 }

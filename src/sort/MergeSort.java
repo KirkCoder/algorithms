@@ -5,9 +5,9 @@ import java.util.Arrays;
 // O(n*Log*n)
 public class MergeSort {
     public static void main(String[] args) {
-        int[] arr = {78, 2, 1, 14, 255, -6, 3, 2, -19, 102, 7};
-        print(arr);
-        print(sort(arr));
+        int[] arr = SortUtils.getArray();
+        SortUtils.print(arr);
+        SortUtils.print(sort(arr));
     }
 
     public static int[] sort(int[] arr) {
@@ -42,12 +42,5 @@ public class MergeSort {
             res[iRes++] = right[iRight++];
         }
         return res;
-    }
-
-    private static void print(int[] array) {
-        for (int value : array) {
-            System.out.print(value + " ");
-        }
-        System.out.println(" ");
     }
 }

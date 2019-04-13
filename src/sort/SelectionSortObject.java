@@ -15,15 +15,13 @@ public class SelectionSortObject {
 
     private static <T extends Comparable<T>> List<T> sort(List<T> list) {
         for (int i = 0; i < list.size(); i++) {
-            T min = list.get(i);
-            int position = i;
+            int minIndex = i;
             for (int j = i; j < list.size(); j++) {
-                if (min.compareTo(list.get(j)) > 0) {
-                    min = list.get(j);
-                    position = j;
+                if (list.get(minIndex).compareTo(list.get(j)) > 0) {
+                    minIndex = j;
                 }
             }
-            Collections.swap(list, i, position);
+            Collections.swap(list, i, minIndex);
         }
         return list;
     }

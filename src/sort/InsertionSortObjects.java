@@ -8,7 +8,7 @@ import java.util.List;
 public class InsertionSortObjects {
     public static void main(String[] args){
 
-        List<Integer> list = new ArrayList(Arrays.asList(78, 2, 1, 14, 255, -6, 3, 2, 2, -19, 102));
+        List<Integer> list = new ArrayList<>(Arrays.asList(78, 2, 1, 14, 255, -6, 3, 2, 2, -19, 102));
         print(list);
         print(sort(list));
     }
@@ -19,6 +19,8 @@ public class InsertionSortObjects {
             for(int j = i - 1; j > -1; j--){
                 if(list.get(j).compareTo(element) > 0){
                     Collections.swap(list, j + 1, j);
+                } else {
+                    break;
                 }
             }
         }
