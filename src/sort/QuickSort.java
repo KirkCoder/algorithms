@@ -1,5 +1,7 @@
 package sort;
 
+import javax.swing.tree.TreeNode;
+
 // O(n^2) or O(n*Log*n)
 public class QuickSort {
 
@@ -10,11 +12,11 @@ public class QuickSort {
     }
 
     private static int[] sort(int[] arr){
-        quicSort(arr, 0, arr.length - 1);
+        quickSort(arr, 0, arr.length - 1);
         return arr;
     }
 
-    private static void quicSort(int[] arr, int from, int to){
+    private static void quickSort(int[] arr, int from, int to){
         if(from >= to) return;
         int index = (from + to) / 2;
         int element = arr[index];
@@ -33,7 +35,7 @@ public class QuickSort {
         int tmp = arr[separator];
         arr[separator] = element;
         arr[to] = tmp;
-        quicSort(arr, from, separator - 1);
-        quicSort(arr, separator + 1, to);
+        quickSort(arr, from, separator - 1);
+        quickSort(arr, separator + 1, to);
     }
 }
