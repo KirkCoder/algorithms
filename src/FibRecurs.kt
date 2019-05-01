@@ -1,5 +1,5 @@
 fun main() {
-    println(getFib(10))
+    println(getFib(3))
 }
 
 fun getFib(i: Int): Int{

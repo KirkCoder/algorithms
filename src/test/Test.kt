@@ -1,12 +1,14 @@
+
 fun main(args: Array<String>) {
     val pairs = readLine()!!.toInt()
     val mask = 1 shl (pairs * 2 - 1)
     val sequence = mutableListOf<Int>()
     generate(pairs, pairs, sequence, 0, mask)
     for (s in sequence) {
-        val res = s.toString(2).toCharArray()
-        for (i in res){
-            if (i == '1') print('(') else print(')')
+        var tmpMask = 1 shl pairs * 2 - 1
+        for (i in 0 until pairs * 2){
+            if (s and tmpMask > 0) print('(') else print(')')
+            tmpMask = tmpMask shr 1
         }
         println()
     }
@@ -27,7 +29,7 @@ fun generate(
         generate(open - 1, close, sequence, chars or position, position shr 1)
     }
 
-    if (close > open){
+    if (close >= open){
         generate(open, close - 1, sequence, chars, position shr 1)
     }
 }

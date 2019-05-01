@@ -6,6 +6,11 @@ fun main() {
     val sequence = mutableListOf<String>()
     val chars = arrayOfNulls<Char>(length)
     generate(pairs, pairs, sequence, chars, 0)
+    for (s in chars) {
+        print(s)
+    }
+    println()
+    println()
     for (s in sequence) {
         println(s)
     }
@@ -27,7 +32,7 @@ fun generate(
         generate(open - 1, close, sequence, chars, position + 1)
     }
 
-    if (close > open){
+    if (close >= open){
         chars[position] = CLOSE
         generate(open, close - 1, sequence, chars, position + 1)
     }
