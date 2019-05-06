@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tasks/EightQuinsProblem.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/TestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SubsetsKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/TestKt.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +29,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/Test.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tasks/Sequences.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+            <state relative-caret-position="393">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/Subsets.kt">
+        <entry file="file://$PROJECT_DIR$/src/tasks/CoinCount.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="432">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tasks/EightQuinsProblem.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -100,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tasks/KnapsackProblem.java" />
         <option value="$PROJECT_DIR$/src/tasks/KnapsackProblemWithPrise.java" />
         <option value="$PROJECT_DIR$/src/tasks/KnapsackProblemWithPrice.java" />
         <option value="$PROJECT_DIR$/src/tasks/Combinatorics.java" />
@@ -151,14 +160,15 @@
         <option value="$PROJECT_DIR$/src/tasks/AnagramString.kt" />
         <option value="$PROJECT_DIR$/src/tasks/Subsets.kt" />
         <option value="$PROJECT_DIR$/src/test/Test.kt" />
+        <option value="$PROJECT_DIR$/src/tasks/EightQuinsProblem.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="131" />
-    <option name="y" value="-17" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-1637" />
+    <option name="y" value="-96" />
+    <option name="width" value="1124" />
+    <option name="height" value="536" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -198,7 +208,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557162611096" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557172503665" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -220,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.SequencesKt">
+  <component name="RunManager" selected="Kotlin.tasks.EightQuinsProblemKt">
     <configuration name="AnagramKtKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
@@ -229,6 +239,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="AnagramKtKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinCountKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="CoinCountKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,27 +283,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tasks.CountWaysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="tasks.EightQuinsProblemKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tasks.CountWaysKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tasks.HeapKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tasks.HeapKt" />
+      <option name="MAIN_CLASS_NAME" value="tasks.EightQuinsProblemKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,18 +298,18 @@
     </configuration>
     <list>
       <item itemvalue="Kotlin.SequencesKt" />
-      <item itemvalue="Kotlin.tasks.CountWaysKt" />
-      <item itemvalue="Kotlin.tasks.HeapKt" />
       <item itemvalue="Kotlin.AnagramKtKt" />
       <item itemvalue="Kotlin.SubsetsKt" />
+      <item itemvalue="Kotlin.CoinCountKt" />
+      <item itemvalue="Kotlin.tasks.EightQuinsProblemKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.tasks.EightQuinsProblemKt" />
+        <item itemvalue="Kotlin.CoinCountKt" />
         <item itemvalue="Kotlin.SequencesKt" />
         <item itemvalue="Kotlin.SubsetsKt" />
         <item itemvalue="Kotlin.AnagramKtKt" />
-        <item itemvalue="Kotlin.tasks.HeapKt" />
-        <item itemvalue="Kotlin.tasks.CountWaysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557081089576</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add &#10;AnagramKt.kt&#10;CoinCount.kt&#10;FillColor.kt&#10;MultiplyRec.kt&#10;Sequences.kt">
+      <created>1557162717866</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1557162717866</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -488,10 +505,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1688" y="-90" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.090214066" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18680641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -505,7 +522,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17592593" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17525773" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32947975" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.065972224" />
@@ -546,7 +563,8 @@
     <MESSAGE value="add fibRecurs" />
     <MESSAGE value="add Count Ways" />
     <MESSAGE value="create min Heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="create min Heap" />
+    <MESSAGE value="add &#10;AnagramKt.kt&#10;CoinCount.kt&#10;FillColor.kt&#10;MultiplyRec.kt&#10;Sequences.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add &#10;AnagramKt.kt&#10;CoinCount.kt&#10;FillColor.kt&#10;MultiplyRec.kt&#10;Sequences.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,14 +628,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Anagram2.kt" />
     <entry file="file://$PROJECT_DIR$/src/graph/BreadthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -938,10 +948,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.kt">
+    <entry file="file://$PROJECT_DIR$/src/tasks/Sequences.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="18" column="58" lean-forward="true" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+        <state relative-caret-position="393">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/CoinCount.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tasks/EightQuinsProblem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
