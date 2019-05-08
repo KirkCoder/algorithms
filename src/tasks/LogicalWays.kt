@@ -2,12 +2,18 @@ package tasks
 
 fun main() {
     val str = "0^0&0^1|1"
-    println(countLogicalWays(str, true))
+    val map = mutableMapOf<String, Int>()
+    println(countLogicalWays(str, true, map))
 }
 
-fun countLogicalWays(str: String, logic: Boolean): Int {
+fun countLogicalWays(
+    str: String,
+    logic: Boolean,
+    map: MutableMap<String, Int>
+): Int {
     if (str.isEmpty()) return 0
     if (str.length == 1) return if (str.toBool() == logic) 1 else 0
+    if (map.containsKey(str + logic)) return map[str + logic]!!
 
     var ways = 0
     for (i in 1 until str.length step 2) {
@@ -15,10 +21,10 @@ fun countLogicalWays(str: String, logic: Boolean): Int {
         val left = str.substring(0, i)
         val right = str.substring(i + 1, str.length)
 
-        val leftTrue = countLogicalWays(left, true)
-        val rightTrue = countLogicalWays(right, true)
-        val leftFalse = countLogicalWays(left, false)
-        val rightFalse = countLogicalWays(left, false)
+        val leftTrue = countLogicalWays(left, true, map)
+        val rightTrue = countLogicalWays(right, true, map)
+        val leftFalse = countLogicalWays(left, false, map)
+        val rightFalse = countLogicalWays(left, false, map)
 
         val total = (leftTrue + leftFalse) * (rightTrue + rightFalse)
 
@@ -29,6 +35,7 @@ fun countLogicalWays(str: String, logic: Boolean): Int {
         }
 
         ways += if (logic) totalTrue else total - totalTrue
+        map[str + logic] = ways
     }
     return ways
 }

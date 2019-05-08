@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tasks/LogicalWays.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tasks/LogicalWays.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="72">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -162,7 +161,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557344578728" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557346519792" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -460,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557340992008</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add Logical Way">
+      <created>1557344625210</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1557344625210</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -485,12 +491,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
-      <window_info active="true" anchor="bottom" x="0" y="23" width="1366" height="705" id="Run" maximized="true" order="2" type="WINDOWED" visible="true" weight="0.2789352" />
+      <window_info anchor="bottom" x="0" y="23" width="1366" height="705" id="Run" maximized="true" order="2" type="WINDOWED" visible="true" weight="0.2789352" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22916667" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2523148" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2523148" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3298611" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32947975" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.23842593" />
@@ -508,7 +514,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add lcm and gcd" />
     <MESSAGE value="add selection and insertion objects sort" />
     <MESSAGE value="Binary search objects" />
     <MESSAGE value="add merge sort" />
@@ -533,7 +538,8 @@
     <MESSAGE value="add &#10;AnagramKt.kt&#10;CoinCount.kt&#10;FillColor.kt&#10;MultiplyRec.kt&#10;Sequences.kt" />
     <MESSAGE value="EightQuinsProblem" />
     <MESSAGE value="add File read examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="add File read examples" />
+    <MESSAGE value="add Logical Way" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Logical Way" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -925,8 +931,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tasks/LogicalWays.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="72">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
