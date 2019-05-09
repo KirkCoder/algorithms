@@ -13,7 +13,7 @@ fun countLogicalWays(
 ): Int {
     if (str.isEmpty()) return 0
     if (str.length == 1) return if (str.toBool() == logic) 1 else 0
-    if (map.containsKey(str + logic)) return map[str + logic]!!
+    map[str + logic]?.let { return it }
 
     var ways = 0
     for (i in 1 until str.length step 2) {
