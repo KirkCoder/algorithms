@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/MergeTwoSortedArrays.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/sort/SortUtilsKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/sort/SortUtilsKtKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/LogicalWaysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/LogicalWaysKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sort/SortUtilsKt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/SortUtilsKt.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/LogicalWays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/LogicalWays.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,15 +14,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/LogicalWays.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sort/MergeTwoSortedArrays.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
@@ -37,20 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sort/SortUtilsKt.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sort/SearchInShiftedArr.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Files.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="748">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -87,9 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tasks/Anogram.java" />
-        <option value="$PROJECT_DIR$/src/tasks/Anagram2.java" />
-        <option value="$PROJECT_DIR$/src/tasks/Anagram.java" />
         <option value="$PROJECT_DIR$/src/sort/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/sort/DefectedCoin.java" />
         <option value="$PROJECT_DIR$/src/sort/SortUtils.java" />
@@ -138,6 +111,9 @@
         <option value="$PROJECT_DIR$/src/tasks/LogicalWays.kt" />
         <option value="$PROJECT_DIR$/src/sort/SortUtilsKt.kt" />
         <option value="$PROJECT_DIR$/src/sort/MergeTwoSortedArrays.kt" />
+        <option value="$PROJECT_DIR$/src/sort/FindDublicates.kt" />
+        <option value="$PROJECT_DIR$/src/sort/PeakAndThrough.kt" />
+        <option value="$PROJECT_DIR$/src/sort/SearchInShiftedArr.kt" />
       </list>
     </option>
   </component>
@@ -153,7 +129,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,16 +151,23 @@
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557425909975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557511245088" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -497,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557346551283</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="FindDublicates.kt&#10;HorseSteps.kt&#10;MergeTwoSortedArrays.kt&#10;PeakAndThrough.kt&#10;SearchInShiftedArr.kt&#10;searchInSortedMatrix.kt">
+      <created>1557425981112</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1557425981112</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -511,9 +500,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1688" y="-90" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19297165" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19605425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -527,9 +515,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.105324075" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.105324075" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3298611" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32947975" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287037" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.23842593" />
       <window_info anchor="bottom" id="Run with VisualVM" order="11" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
@@ -545,7 +533,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Binary search objects" />
     <MESSAGE value="add merge sort" />
     <MESSAGE value="add counting sort" />
     <MESSAGE value="add topological sort" />
@@ -570,7 +557,8 @@
     <MESSAGE value="add File read examples" />
     <MESSAGE value="add Logical Way" />
     <MESSAGE value="add Logical Way with cash" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Logical Way with cash" />
+    <MESSAGE value="FindDublicates.kt&#10;HorseSteps.kt&#10;MergeTwoSortedArrays.kt&#10;PeakAndThrough.kt&#10;SearchInShiftedArr.kt&#10;searchInSortedMatrix.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="FindDublicates.kt&#10;HorseSteps.kt&#10;MergeTwoSortedArrays.kt&#10;PeakAndThrough.kt&#10;SearchInShiftedArr.kt&#10;searchInSortedMatrix.kt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -634,27 +622,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/io/Console.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="152" column="34" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="405" column="25" selection-start-line="405" selection-start-column="25" selection-end-line="405" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="1717" column="31" selection-start-line="1717" selection-start-column="31" selection-end-line="1717" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/InsertionSortKt.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -960,10 +927,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/FindDublicates.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/PeakAndThrough.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sort/MergeTwoSortedArrays.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sort/SearchInShiftedArr.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
