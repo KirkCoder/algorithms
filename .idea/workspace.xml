@@ -2,61 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Serialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/AnagramKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/AnagramKtKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/CoinCountKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/CoinCountKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/FibRecursKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/FibRecursKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/FillColorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/FillColorKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/FindDublicatesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/FindDublicatesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/HorseStepsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/HorseStepsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/MinusBitKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/MultiplyRecKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/MultiplyRecKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/PeakAndThroughKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/PeakAndThroughKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SearchInShiftedArrKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SearchInShiftedArrKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SearchInSortedMatrixKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SearchInSortedMatrixKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SequencesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SequencesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/graph/TreeFromArrayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/graph/TreeFromArrayKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/sort/InsertionShellSortKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/sort/InsertionShellSortKtKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/sort/InsertionSortKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/sort/InsertionSortKtKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/sort/MergeTwoSortedArraysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/sort/MergeTwoSortedArraysKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/sort/SortUtilsKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/sort/SortUtilsKtKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/BasketsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/BasketsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/BsketsBitsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/BsketsBitsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/CalculatorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/CalculatorKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/ChangeSpaceToCharsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/ChangeSpaceToCharsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/CountWaysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/CountWaysKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/EightQuinsProblemKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/EightQuinsProblemKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/FactorialZerosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/FactorialZerosKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Heap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/HeapKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/HeapKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Line.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/LineInterceptKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/LineInterceptKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/LinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/LinkListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/LinkListKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/LogicalWaysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/LogicalWaysKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/MatrixRotationKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/MatrixRotationKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/MinMaxNoIfKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/MinMaxNoIfKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/PlusMinusBitKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/PlusMinusBitKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Sequences2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Sequences2Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/StringByPatternKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/StringByPatternKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tasks/StringByPattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/StringByPattern.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/TowerFromPairsKt$getSequence$$inlined$sortedByDescending$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/TowerFromPairsKt$getSequence$$inlined$sortedByDescending$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/TowerFromPairsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/TowerFromPairsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/FilesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/FilesKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tasks/StringByPattern.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Test.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-              <folding>
-                <element signature="e#14#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tasks/AnagramKt.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="35" column="47" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin Object" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -80,108 +83,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/sort/InsertionShellSort.java" />
-        <option value="$PROJECT_DIR$/src/sort/SelectionSort.java" />
-        <option value="$PROJECT_DIR$/src/sort/SelectionSortObject.java" />
-        <option value="$PROJECT_DIR$/src/sort/BubbleSort.java" />
-        <option value="$PROJECT_DIR$/src/sort/MergeSort.java" />
-        <option value="$PROJECT_DIR$/src/sort/InsertionSortObjects.java" />
-        <option value="$PROJECT_DIR$/src/sort/CombSort.java" />
-        <option value="$PROJECT_DIR$/src/test/Dog.java" />
-        <option value="$PROJECT_DIR$/src/Cat.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/tasks/Buskets.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/BusketsRec.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/Anagram2.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/Anagram3.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/strings/Main2.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/Main2.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/Linked.java" />
-        <option value="$PROJECT_DIR$/src/sort/QuckSortKt.kt" />
-        <option value="$PROJECT_DIR$/src/test/Anagram3.kt" />
-        <option value="$PROJECT_DIR$/src/sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/graph/Node.java" />
-        <option value="$PROJECT_DIR$/src/graph/TreeFromArray.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/LinkList.kt" />
-        <option value="$PROJECT_DIR$/src/sort/InsertionShellSortKt.kt" />
-        <option value="$PROJECT_DIR$/src/sort/InsertionSortKt.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/MatrixRotation.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/ChangeSpaceToChars.kt" />
-        <option value="$PROJECT_DIR$/src/test/Main2.kt" />
-        <option value="$PROJECT_DIR$/src/test/Main.java" />
-        <option value="$PROJECT_DIR$/src/tasks/BsketsBits.kt" />
-        <option value="$PROJECT_DIR$/src/FibRecurs.kt" />
-        <option value="$PROJECT_DIR$/src/test/Test2.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/Baskets.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/CountWays.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/Heap.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/Permutation.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/AnagramString.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/Subsets.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/EightQuinsProblem.kt" />
-        <option value="$PROJECT_DIR$/src/test/Files.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/LogicalWays.kt" />
-        <option value="$PROJECT_DIR$/src/sort/SortUtilsKt.kt" />
-        <option value="$PROJECT_DIR$/src/sort/MergeTwoSortedArrays.kt" />
-        <option value="$PROJECT_DIR$/src/sort/FindDublicates.kt" />
-        <option value="$PROJECT_DIR$/src/sort/PeakAndThrough.kt" />
-        <option value="$PROJECT_DIR$/src/sort/SearchInShiftedArr.kt" />
-        <option value="$PROJECT_DIR$/src/test/Test.java" />
-        <option value="$PROJECT_DIR$/src/tasks/Calculator.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/MinusBit.kt" />
-        <option value="$PROJECT_DIR$/src/test/Test.kt" />
-        <option value="$PROJECT_DIR$/src/tasks/StringByPattern.kt" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1348" />
-    <option name="y" value="-102" />
-    <option name="width" value="1124" />
-    <option name="height" value="536" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1UnzWUwibwrUPj0XrVRhN5ZDfsy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557772208028" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -194,28 +104,16 @@
       <recent name="D:\Geek\algorithms\src\tasks" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Kotlin.tasks.StringByPatternKt">
-    <configuration name="sort.MergeTwoSortedArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Serialization">
+    <configuration name="Serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Serialization" />
       <module name="algorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="sort.MergeTwoSortedArraysKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -273,7 +171,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.sort.MergeTwoSortedArraysKt" />
+      <item itemvalue="Application.Serialization" />
       <item itemvalue="Kotlin.tasks.StringByPatternKt" />
       <item itemvalue="Kotlin.test.TestKt" />
       <item itemvalue="Kotlin.tasks.CalculatorKt" />
@@ -281,13 +179,25 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Serialization" />
         <item itemvalue="Kotlin.tasks.StringByPatternKt" />
         <item itemvalue="Kotlin.test.TestKt" />
         <item itemvalue="Kotlin.tasks.PlusMinusBitKt" />
         <item itemvalue="Kotlin.tasks.CalculatorKt" />
-        <item itemvalue="Kotlin.sort.MergeTwoSortedArraysKt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -543,41 +453,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-1688" y="-90" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17817509" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
-      <window_info anchor="bottom" x="0" y="23" width="1366" height="705" id="Run" maximized="true" order="2" type="WINDOWED" visible="true" weight="0.2789352" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23726852" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24421297" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3298611" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287037" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.23842593" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="11" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="right" id="Maven" order="8" />
-    </layout>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add DepthFirstSearch" />
     <MESSAGE value="add BreadthFirstSearch" />
@@ -606,43 +481,80 @@
     <MESSAGE value="TowerFromPairs.kt" />
     <option name="LAST_COMMIT_MESSAGE" value="TowerFromPairs.kt" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="154" key="GridCell.Tab.0.bottom" timestamp="1576081436426">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="199" key="GridCell.Tab.0.bottom/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604594" />
+    <state width="1638" height="154" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576081436426" />
+    <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1576080512077" />
+    <state width="678" height="172" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1576007537919" />
+    <state width="1638" height="154" key="GridCell.Tab.0.center" timestamp="1576081436425">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="199" key="GridCell.Tab.0.center/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604593" />
+    <state width="1638" height="154" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576081436425" />
+    <state width="1638" height="199" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1576080512074" />
+    <state width="678" height="172" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1576007537918" />
+    <state width="1638" height="154" key="GridCell.Tab.0.left" timestamp="1576081436424">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="199" key="GridCell.Tab.0.left/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604593" />
+    <state width="1638" height="154" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576081436424" />
+    <state width="1638" height="199" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1576080512066" />
+    <state width="678" height="172" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1576007537917" />
+    <state width="1638" height="154" key="GridCell.Tab.0.right" timestamp="1576081436425">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="199" key="GridCell.Tab.0.right/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604594" />
+    <state width="1638" height="154" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576081436425" />
+    <state width="1638" height="199" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1576080512076" />
+    <state width="678" height="172" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1576007537918" />
+    <state x="692" y="448" key="VCS.ChangelistChooser" timestamp="1576079828100">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="692" y="448" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1576079828100" />
+    <state x="496" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1576079216223">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="496" y="332" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1576079216223" />
+    <state x="496" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1576042966145" />
+    <state x="578" y="286" key="extract.method.dialog" timestamp="1576080348414">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="286" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576080348414" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graph/BreadthFirstSearch.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/tasks/Calculator.kt</url>
           <line>23</line>
-          <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/tasks/Calculator.kt</url>
           <line>25</line>
-          <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/tasks/Calculator.kt</url>
           <line>29</line>
-          <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/tasks/PlusMinusBit.kt</url>
           <line>10</line>
-          <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/tasks/StringByPattern.kt</url>
           <line>21</line>
-          <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
@@ -703,347 +615,5 @@ numbers</expression-string>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tasks/MatrixRotation.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/BusketsRec.kt" />
-    <entry file="file://$PROJECT_DIR$/src/test/Baskets.kt" />
-    <entry file="file://$PROJECT_DIR$/src/test/Anagram3.kt" />
-    <entry file="file://$PROJECT_DIR$/src/test/Main2.kt" />
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/kotlin/UByte.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="13757" column="28" selection-start-line="13757" selection-start-column="28" selection-end-line="13757" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test2.kt" />
-    <entry file="file://$PROJECT_DIR$/src/tasks/BsketsBits.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/CountWays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/SelectionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/Baskets.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/ChangeSpaceToChars.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/QuickSortTmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FibRecurs.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="239" column="15" selection-start-line="239" selection-start-column="15" selection-end-line="239" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/Combinatorics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="8" column="49" lean-forward="true" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/text/StringsJVM.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="179" column="32" selection-start-line="179" selection-start-column="32" selection-end-line="179" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Ranges.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="703" column="21" selection-start-line="703" selection-start-column="21" selection-end-line="703" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/Subsets.kt" />
-    <entry file="file://$PROJECT_DIR$/src/tasks/Sequences.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/CoinCount.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/Anagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/EightQuinsProblem.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="214" column="52" lean-forward="true" selection-start-line="214" selection-start-column="52" selection-end-line="214" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/WinNTFileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="37" />
-          <folding>
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="253" column="15" selection-start-line="253" selection-start-column="15" selection-end-line="253" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/io/FileReadWrite.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/LogicalWays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/SortUtilsKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Files.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/FindDublicates.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/PeakAndThrough.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/SearchInShiftedArr.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="56" column="15" selection-start-line="56" selection-start-column="15" selection-end-line="56" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sort/MergeTwoSortedArrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Primitives.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="565" column="23" selection-start-line="565" selection-start-column="23" selection-end-line="565" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/MultiplyRec.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/Heap.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="17" />
-          <folding>
-            <element signature="e#15#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150309">
-          <caret line="5633" column="26" selection-start-line="5633" selection-start-column="26" selection-end-line="5633" selection-end-column="26" />
-          <folding>
-            <element signature="e#197464#197465#0" expanded="true" />
-            <element signature="e#197503#197504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/Calculator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding>
-            <element signature="e#15#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Char.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="55" column="15" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/PlusMinusBit.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/TowerFromPairs.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/AnagramKt.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="35" column="47" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tasks/StringByPattern.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
