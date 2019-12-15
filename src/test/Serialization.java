@@ -3,15 +3,20 @@ package test;
 import java.io.*;
 
 public class Serialization {
+
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        SerializableClass sc = new SerializableClass(100);
-        serialize(sc);
-        System.out.println(sc.getX());
-        SerializableClass deserializeClass = deserialize();
+//        serializeCommon(new SerializableClass(100));
+        serializeCommon(new SerializableWithProxyClass(100));
+    }
+
+    private static <T extends Point> void serializeCommon(T point) throws IOException, ClassNotFoundException {
+        serialize(point);
+        System.out.println(point.getX());
+        T deserializeClass = deserialize();
         System.out.println(deserializeClass.getX());
     }
 
-    private static void serialize(SerializableClass sc) throws IOException {
+    private static void serialize(Serializable sc) throws IOException {
         File file = createFile();
         FileOutputStream fos = new FileOutputStream(file);
         ObjectOutputStream oos = new ObjectOutputStream(fos);
@@ -29,12 +34,12 @@ public class Serialization {
         return new File(filePath);
     }
 
-    private static SerializableClass deserialize() throws IOException, ClassNotFoundException {
+    private static <T extends Point> T deserialize() throws IOException, ClassNotFoundException {
         File file = getFile();
         FileInputStream fileInputStream = new FileInputStream(file);
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
-        return (SerializableClass) objectInputStream.readObject();
+        return (T) objectInputStream.readObject();
     }
 
     private static void createNewFileIfNeed(File file) throws IOException {
@@ -42,14 +47,18 @@ public class Serialization {
     }
 }
 
-class SerializableClass implements Serializable {
+interface Point extends Serializable{
+    public int getX();
+}
+
+class SerializableClass implements Point {
     private int x;
 
-    public SerializableClass(int x){
+    public SerializableClass(int x) {
         this.x = x;
     }
 
-    int getX() {
+    public int getX() {
         return x;
     }
 
@@ -61,5 +70,35 @@ class SerializableClass implements Serializable {
     private void writeObject(ObjectOutputStream s) throws IOException {
 //        s.defaultWriteObject();
         s.writeInt(x);
+    }
+}
+
+class SerializableWithProxyClass implements Point {
+    private final int x;
+
+    public SerializableWithProxyClass(int x) {
+        this.x = x;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    private Object writeReplace() {
+        return new Proxy(x);
+    }
+
+    private static class Proxy implements Serializable {
+
+        private int x;
+
+        Proxy(int x) {
+            this.x = x;
+        }
+
+        private Object readResolve() {
+//            return new SerializableWithProxyClass(x);
+            return new SerializableWithProxyClass(78);
+        }
     }
 }

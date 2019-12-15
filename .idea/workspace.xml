@@ -2,51 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Serialization.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/AnagramKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/AnagramKtKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/CoinCountKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/CoinCountKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/FibRecursKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/FibRecursKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/FillColorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/FillColorKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/FindDublicatesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/FindDublicatesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/HorseStepsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/HorseStepsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/MultiplyRecKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/MultiplyRecKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/PeakAndThroughKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/PeakAndThroughKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SearchInShiftedArrKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SearchInShiftedArrKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SearchInSortedMatrixKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SearchInSortedMatrixKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SequencesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SequencesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/graph/TreeFromArrayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/graph/TreeFromArrayKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/sort/InsertionShellSortKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/sort/InsertionShellSortKtKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/sort/InsertionSortKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/sort/InsertionSortKtKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/sort/MergeTwoSortedArraysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/sort/MergeTwoSortedArraysKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/sort/SortUtilsKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/sort/SortUtilsKtKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/BasketsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/BasketsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/BsketsBitsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/BsketsBitsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/CalculatorKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/CalculatorKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/ChangeSpaceToCharsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/ChangeSpaceToCharsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/CountWaysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/CountWaysKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/EightQuinsProblemKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/EightQuinsProblemKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/FactorialZerosKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/FactorialZerosKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/HeapKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/HeapKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/LineInterceptKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/LineInterceptKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/LinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/LinkListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/LinkListKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/LogicalWaysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/LogicalWaysKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/MatrixRotationKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/MatrixRotationKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/MinMaxNoIfKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/MinMaxNoIfKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/PlusMinusBitKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/PlusMinusBitKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/Sequences2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/Sequences2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/StringByPatternKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/StringByPatternKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/TowerFromPairsKt$getSequence$$inlined$sortedByDescending$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/TowerFromPairsKt$getSequence$$inlined$sortedByDescending$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/TowerFromPairsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/TowerFromPairsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/FilesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/FilesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Serialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Serialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/save_class.ser" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/save_class.ser" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557772208028" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -441,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557689132271</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="create serialization test">
+      <created>1576081536363</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1576081536363</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView">
@@ -454,7 +420,6 @@
     </todo-panel>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add DepthFirstSearch" />
     <MESSAGE value="add BreadthFirstSearch" />
     <MESSAGE value="add Linked with revers" />
     <MESSAGE value="Tower Of Hanoi" />
@@ -479,50 +444,68 @@
     <MESSAGE value="calculator" />
     <MESSAGE value="PlusMinusBit.kt" />
     <MESSAGE value="TowerFromPairs.kt" />
-    <option name="LAST_COMMIT_MESSAGE" value="TowerFromPairs.kt" />
+    <MESSAGE value="create serialization test" />
+    <option name="LAST_COMMIT_MESSAGE" value="create serialization test" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="154" key="GridCell.Tab.0.bottom" timestamp="1576081436426">
+    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1576081536209">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1576081536209" />
+    <state x="168" y="94" key="DiffContextDialog" timestamp="1576081551715">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576081551715" />
+    <state width="1638" height="211" key="GridCell.Tab.0.bottom" timestamp="1576407283379">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604594" />
-    <state width="1638" height="154" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576081436426" />
+    <state width="1638" height="211" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576407283379" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1576080512077" />
     <state width="678" height="172" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1576007537919" />
-    <state width="1638" height="154" key="GridCell.Tab.0.center" timestamp="1576081436425">
+    <state width="1638" height="211" key="GridCell.Tab.0.center" timestamp="1576407283378">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="199" key="GridCell.Tab.0.center/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604593" />
-    <state width="1638" height="154" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576081436425" />
+    <state width="1638" height="211" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576407283378" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1576080512074" />
     <state width="678" height="172" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1576007537918" />
-    <state width="1638" height="154" key="GridCell.Tab.0.left" timestamp="1576081436424">
+    <state width="1638" height="211" key="GridCell.Tab.0.left" timestamp="1576407283377">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="199" key="GridCell.Tab.0.left/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604593" />
-    <state width="1638" height="154" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576081436424" />
+    <state width="1638" height="211" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576407283377" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1576080512066" />
     <state width="678" height="172" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1576007537917" />
-    <state width="1638" height="154" key="GridCell.Tab.0.right" timestamp="1576081436425">
+    <state width="1638" height="211" key="GridCell.Tab.0.right" timestamp="1576407283379">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="199" key="GridCell.Tab.0.right/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604594" />
-    <state width="1638" height="154" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576081436425" />
+    <state width="1638" height="211" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576407283379" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1576080512076" />
     <state width="678" height="172" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1576007537918" />
+    <state x="637" y="451" key="ReplaceDuplicatesPrompt" timestamp="1576406779620">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="637" y="451" key="ReplaceDuplicatesPrompt/0.0.1680.1050@0.0.1680.1050" timestamp="1576406779620" />
     <state x="692" y="448" key="VCS.ChangelistChooser" timestamp="1576079828100">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="692" y="448" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1576079828100" />
-    <state x="496" y="332" key="com.intellij.ide.util.TipDialog" timestamp="1576079216223">
-      <screen x="0" y="23" width="1680" height="949" />
-    </state>
-    <state x="496" y="332" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1576079216223" />
-    <state x="496" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1576042966145" />
-    <state x="578" y="286" key="extract.method.dialog" timestamp="1576080348414">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1576081553419">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="578" y="286" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576080348414" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1576081553419" />
+    <state x="496" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576406394319">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="496" y="342" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576406394319" />
+    <state x="496" y="332" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1576079216223" />
+    <state x="496" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1576042966145" />
+    <state x="578" y="286" width="524" height="482" key="extract.method.dialog" timestamp="1576406776915">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="286" width="524" height="482" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576406776915" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
