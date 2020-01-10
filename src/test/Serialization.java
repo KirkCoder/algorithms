@@ -48,7 +48,7 @@ public class Serialization {
 }
 
 interface Point extends Serializable{
-    public int getX();
+    int getX();
 }
 
 class SerializableClass implements Point {

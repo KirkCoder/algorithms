@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/test/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/test/SerializableWithProxyClass$Proxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/algorithms/test/SerializableWithProxyClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/CustomExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Helper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/SerializableClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/SerializableClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Serialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/Serialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/save_class.ser" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/save_class.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Serialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Serialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/save_class.ser" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/save_class.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,27 +28,10 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin Object" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>BreadthFirstSearch</find>
-      <find>Integer</find>
-      <find>abcd</find>
-      <find>list</find>
-      <find>()()()()()()()</find>
-      <find>eee</find>
-      <find>25164073</find>
-      <find>&quot;</find>
-      <find>operators</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Item</replace>
-      <replace>'</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,19 +46,33 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557772208028" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Geek\algorithms\src\tasks" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="D:\Geek\algorithms\src\tasks" />
       <recent name="D:\Geek\algorithms\src\tasks\strings" />
       <recent name="D:\Geek\algorithms\src\test" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Geek\algorithms\src\tasks" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Serialization">
+  <component name="RunManager" selected="Application.CustomExecutor">
+    <configuration name="CustomExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.CustomExecutor" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Serialization" />
       <module name="algorithms" />
@@ -77,28 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tasks.CalculatorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="algorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tasks.CalculatorKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="tasks.PlusMinusBitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tasks.PlusMinusBitKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,18 +127,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Serialization" />
+      <item itemvalue="Application.Test" />
       <item itemvalue="Kotlin.tasks.StringByPatternKt" />
       <item itemvalue="Kotlin.test.TestKt" />
-      <item itemvalue="Kotlin.tasks.CalculatorKt" />
-      <item itemvalue="Kotlin.tasks.PlusMinusBitKt" />
+      <item itemvalue="Application.CustomExecutor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomExecutor" />
+        <item itemvalue="Kotlin.test.TestKt" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Serialization" />
         <item itemvalue="Kotlin.tasks.StringByPatternKt" />
-        <item itemvalue="Kotlin.test.TestKt" />
-        <item itemvalue="Kotlin.tasks.PlusMinusBitKt" />
-        <item itemvalue="Kotlin.tasks.CalculatorKt" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576081536363</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="create serialization proxy test">
+      <created>1576407306213</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1576407306214</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -420,7 +423,6 @@
     </todo-panel>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add BreadthFirstSearch" />
     <MESSAGE value="add Linked with revers" />
     <MESSAGE value="Tower Of Hanoi" />
     <MESSAGE value="Exponentiation (pow) by log(N)" />
@@ -445,67 +447,88 @@
     <MESSAGE value="PlusMinusBit.kt" />
     <MESSAGE value="TowerFromPairs.kt" />
     <MESSAGE value="create serialization test" />
-    <option name="LAST_COMMIT_MESSAGE" value="create serialization test" />
+    <MESSAGE value="create serialization proxy test" />
+    <option name="LAST_COMMIT_MESSAGE" value="create serialization proxy test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1576081536209">
+    <state x="440" y="192" key="#Inspections" timestamp="1578682220927">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1576081536209" />
+    <state x="440" y="192" key="#Inspections/0.0.1680.1050@0.0.1680.1050" timestamp="1578682220927" />
+    <state x="653" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1578682111659">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1578682111659" />
+    <state x="441" y="198" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1578673290250">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="441" y="198" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578673290250" />
+    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1576407306057">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1576407306057" />
     <state x="168" y="94" key="DiffContextDialog" timestamp="1576081551715">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576081551715" />
-    <state width="1638" height="211" key="GridCell.Tab.0.bottom" timestamp="1576407283379">
+    <state width="1638" height="429" key="GridCell.Tab.0.bottom" timestamp="1578683038764">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604594" />
-    <state width="1638" height="211" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576407283379" />
+    <state width="1638" height="429" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578683038764" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1576080512077" />
-    <state width="678" height="172" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1576007537919" />
-    <state width="1638" height="211" key="GridCell.Tab.0.center" timestamp="1576407283378">
+    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1578680660478" />
+    <state width="1638" height="429" key="GridCell.Tab.0.center" timestamp="1578683038762">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="199" key="GridCell.Tab.0.center/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604593" />
-    <state width="1638" height="211" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576407283378" />
+    <state width="1638" height="429" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578683038762" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1576080512074" />
-    <state width="678" height="172" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1576007537918" />
-    <state width="1638" height="211" key="GridCell.Tab.0.left" timestamp="1576407283377">
+    <state width="1638" height="257" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1578680660477" />
+    <state width="1638" height="429" key="GridCell.Tab.0.left" timestamp="1578683038761">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="199" key="GridCell.Tab.0.left/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604593" />
-    <state width="1638" height="211" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576407283377" />
+    <state width="1638" height="429" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578683038761" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1576080512066" />
-    <state width="678" height="172" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1576007537917" />
-    <state width="1638" height="211" key="GridCell.Tab.0.right" timestamp="1576407283379">
+    <state width="1638" height="257" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1578680660476" />
+    <state width="1638" height="429" key="GridCell.Tab.0.right" timestamp="1578683038763">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="199" key="GridCell.Tab.0.right/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604594" />
-    <state width="1638" height="211" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576407283379" />
+    <state width="1638" height="429" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578683038763" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1576080512076" />
-    <state width="678" height="172" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1576007537918" />
+    <state width="1638" height="257" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1578680660478" />
     <state x="637" y="451" key="ReplaceDuplicatesPrompt" timestamp="1576406779620">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="637" y="451" key="ReplaceDuplicatesPrompt/0.0.1680.1050@0.0.1680.1050" timestamp="1576406779620" />
+    <state x="349" y="164" key="SettingsEditor" timestamp="1578673322358">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1578673322358" />
     <state x="692" y="448" key="VCS.ChangelistChooser" timestamp="1576079828100">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="692" y="448" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1576079828100" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1576081553419">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1576407311460">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1576081553419" />
-    <state x="496" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576406394319">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1576407311460" />
+    <state x="496" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1578667938188">
+      <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="496" y="342" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576406394319" />
+    <state x="496" y="342" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578666570363" />
     <state x="496" y="332" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1576079216223" />
-    <state x="496" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1576042966145" />
-    <state x="578" y="286" width="524" height="482" key="extract.method.dialog" timestamp="1576406776915">
+    <state x="496" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1578667938188" />
+    <state x="578" y="286" width="524" height="482" key="extract.method.dialog" timestamp="1578682685676">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="578" y="286" width="524" height="482" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576406776915" />
+    <state x="578" y="286" width="524" height="482" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578682685676" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1578682455668">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1578682455668" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
