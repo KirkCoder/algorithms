@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/test/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/test/SerializableWithProxyClass$Proxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/test/SerializableWithProxyClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/CustomExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Helper.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/Base64.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HiddenIteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/InterruptionThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/VolatileBugTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/SerializableClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/SerializableClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Serialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/Serialization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/tasks/MatrixRotationKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/tasks/MatrixRotationKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/SomeData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Test$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Test$HiddenIterator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/save_class.ser" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/save_class.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Serialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Serialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/MatrixRotation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/MatrixRotation.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,43 +49,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Geek\algorithms\src\tasks" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/tasks" />
+      <recent name="$PROJECT_DIR$/src/test/b" />
       <recent name="$PROJECT_DIR$/src/test" />
       <recent name="D:\Geek\algorithms\src\tasks" />
       <recent name="D:\Geek\algorithms\src\tasks\strings" />
-      <recent name="D:\Geek\algorithms\src\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Geek\algorithms\src\tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomExecutor">
-    <configuration name="CustomExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.CustomExecutor" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Serialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Serialization" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.tasks.Base64Kt">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="algorithms" />
@@ -99,46 +74,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tasks.StringByPatternKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="VolatileBugTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.VolatileBugTest" />
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tasks.Base64Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tasks.StringByPatternKt" />
+      <option name="MAIN_CLASS_NAME" value="tasks.Base64Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="test.Base64Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="test.TestKt" />
+      <option name="MAIN_CLASS_NAME" value="test.Base64Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.b.Base642Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="test.b.Base642Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Serialization" />
+      <item itemvalue="Application.VolatileBugTest" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Kotlin.tasks.StringByPatternKt" />
-      <item itemvalue="Kotlin.test.TestKt" />
-      <item itemvalue="Application.CustomExecutor" />
+      <item itemvalue="Kotlin.test.b.Base642Kt" />
+      <item itemvalue="Kotlin.tasks.Base64Kt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomExecutor" />
-        <item itemvalue="Kotlin.test.TestKt" />
+        <item itemvalue="Kotlin.tasks.Base64Kt" />
+        <item itemvalue="Kotlin.test.b.Base642Kt" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Serialization" />
-        <item itemvalue="Kotlin.tasks.StringByPatternKt" />
+        <item itemvalue="Kotlin.test.Base64Kt" />
+        <item itemvalue="Application.VolatileBugTest" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576407306214</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="create custom thread executor">
+      <created>1578683071384</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1578683071384</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TodoView">
@@ -423,7 +430,6 @@
     </todo-panel>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add Linked with revers" />
     <MESSAGE value="Tower Of Hanoi" />
     <MESSAGE value="Exponentiation (pow) by log(N)" />
     <MESSAGE value="Knapsack Problem" />
@@ -448,7 +454,8 @@
     <MESSAGE value="TowerFromPairs.kt" />
     <MESSAGE value="create serialization test" />
     <MESSAGE value="create serialization proxy test" />
-    <option name="LAST_COMMIT_MESSAGE" value="create serialization proxy test" />
+    <MESSAGE value="create custom thread executor" />
+    <option name="LAST_COMMIT_MESSAGE" value="create custom thread executor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="192" key="#Inspections" timestamp="1578682220927">
@@ -459,46 +466,86 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="653" y="237" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1578682111659" />
-    <state x="441" y="198" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1578673290250">
+    <state x="441" y="198" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1581246326019">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="441" y="198" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578673290250" />
-    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1576407306057">
+    <state x="441" y="198" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581246326019" />
+    <state x="558" y="253" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1579198918459">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1576407306057" />
+    <state x="558" y="253" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579198918459" />
+    <state x="762" y="211" width="760" height="724" key="#xdebugger.evaluate" timestamp="1581540505969">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="762" y="211" width="760" height="724" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1581540505969" />
+    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1578683071265">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1578683071265" />
     <state x="168" y="94" key="DiffContextDialog" timestamp="1576081551715">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1576081551715" />
-    <state width="1638" height="429" key="GridCell.Tab.0.bottom" timestamp="1578683038764">
+    <state width="1638" height="173" key="GridCell.Tab.0.bottom" timestamp="1581606689630">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="199" key="GridCell.Tab.0.bottom/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604594" />
-    <state width="1638" height="429" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578683038764" />
+    <state width="1638" height="444" key="GridCell.Tab.0.bottom/-124.-1057.1920.1057/0.23.1680.954@0.23.1680.954" timestamp="1580916438873" />
+    <state width="819" height="341" key="GridCell.Tab.0.bottom/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1580924436272" />
+    <state width="1638" height="173" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581606689630" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1576080512077" />
-    <state width="1638" height="257" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1578680660478" />
-    <state width="1638" height="429" key="GridCell.Tab.0.center" timestamp="1578683038762">
+    <state width="818" height="482" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1581605066637" />
+    <state width="818" height="228" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1580751520722" />
+    <state width="1638" height="173" key="GridCell.Tab.0.center" timestamp="1581606689628">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="199" key="GridCell.Tab.0.center/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604593" />
-    <state width="1638" height="429" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578683038762" />
+    <state width="1638" height="444" key="GridCell.Tab.0.center/-124.-1057.1920.1057/0.23.1680.954@0.23.1680.954" timestamp="1580916438871" />
+    <state width="819" height="341" key="GridCell.Tab.0.center/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1580924436271" />
+    <state width="1638" height="173" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581606689628" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1576080512074" />
-    <state width="1638" height="257" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1578680660477" />
-    <state width="1638" height="429" key="GridCell.Tab.0.left" timestamp="1578683038761">
+    <state width="818" height="482" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1581605066636" />
+    <state width="818" height="228" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1580751520720" />
+    <state width="1638" height="173" key="GridCell.Tab.0.left" timestamp="1581606689628">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="199" key="GridCell.Tab.0.left/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604593" />
-    <state width="1638" height="429" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578683038761" />
+    <state width="1638" height="444" key="GridCell.Tab.0.left/-124.-1057.1920.1057/0.23.1680.954@0.23.1680.954" timestamp="1580916438870" />
+    <state width="819" height="341" key="GridCell.Tab.0.left/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1580924436270" />
+    <state width="1638" height="173" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581606689628" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1576080512066" />
-    <state width="1638" height="257" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1578680660476" />
-    <state width="1638" height="429" key="GridCell.Tab.0.right" timestamp="1578683038763">
+    <state width="818" height="482" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1581605066635" />
+    <state width="818" height="228" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1580751520719" />
+    <state width="1638" height="173" key="GridCell.Tab.0.right" timestamp="1581606689629">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="199" key="GridCell.Tab.0.right/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1576045604594" />
-    <state width="1638" height="429" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578683038763" />
+    <state width="1638" height="444" key="GridCell.Tab.0.right/-124.-1057.1920.1057/0.23.1680.954@0.23.1680.954" timestamp="1580916438872" />
+    <state width="819" height="341" key="GridCell.Tab.0.right/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1580924436271" />
+    <state width="1638" height="173" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581606689629" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1576080512076" />
-    <state width="1638" height="257" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1578680660478" />
+    <state width="818" height="482" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1581605066636" />
+    <state width="818" height="228" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1580751520721" />
+    <state width="1638" height="421" key="GridCell.Tab.1.bottom" timestamp="1581540510536">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="819" height="341" key="GridCell.Tab.1.bottom/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1580924436274" />
+    <state width="1638" height="421" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1581540510536" />
+    <state width="819" height="91" key="GridCell.Tab.1.bottom/0.23.1680.952@0.23.1680.952" timestamp="1581537080267" />
+    <state width="1638" height="421" key="GridCell.Tab.1.center" timestamp="1581540510535">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="819" height="341" key="GridCell.Tab.1.center/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1580924436273" />
+    <state width="1638" height="421" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1581540510535" />
+    <state width="819" height="91" key="GridCell.Tab.1.center/0.23.1680.952@0.23.1680.952" timestamp="1581537080265" />
+    <state width="1638" height="421" key="GridCell.Tab.1.left" timestamp="1581540510535">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="819" height="341" key="GridCell.Tab.1.left/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1580924436273" />
+    <state width="1638" height="421" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1581540510535" />
+    <state width="819" height="91" key="GridCell.Tab.1.left/0.23.1680.952@0.23.1680.952" timestamp="1581537080264" />
+    <state width="1638" height="421" key="GridCell.Tab.1.right" timestamp="1581540510535">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="819" height="341" key="GridCell.Tab.1.right/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1580924436274" />
+    <state width="1638" height="421" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1581540510535" />
+    <state width="819" height="91" key="GridCell.Tab.1.right/0.23.1680.952@0.23.1680.952" timestamp="1581537080266" />
     <state x="637" y="451" key="ReplaceDuplicatesPrompt" timestamp="1576406779620">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -507,28 +554,33 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1578673322358" />
-    <state x="692" y="448" key="VCS.ChangelistChooser" timestamp="1576079828100">
+    <state x="692" y="448" key="VCS.ChangelistChooser" timestamp="1581157731362">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="692" y="448" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1576079828100" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1576407311460">
+    <state x="692" y="448" key="VCS.ChangelistChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1581157731362" />
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1578683078218">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1576407311460" />
-    <state x="496" y="333" key="com.intellij.ide.util.TipDialog" timestamp="1578667938188">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1578683078218" />
+    <state x="496" y="334" key="com.intellij.ide.util.TipDialog" timestamp="1581604634787">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="496" y="342" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578666570363" />
+    <state x="496" y="342" key="com.intellij.ide.util.TipDialog/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1580914029660" />
+    <state x="496" y="342" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1581531716155" />
     <state x="496" y="332" key="com.intellij.ide.util.TipDialog/0.23.1680.949@0.23.1680.949" timestamp="1576079216223" />
-    <state x="496" y="333" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1578667938188" />
+    <state x="496" y="334" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1581604634787" />
     <state x="578" y="286" width="524" height="482" key="extract.method.dialog" timestamp="1578682685676">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="286" width="524" height="482" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1578682685676" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1578682455668">
+    <state x="428" y="129" width="824" height="792" key="find.popup" timestamp="1581535804861">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1578682455668" />
+    <state x="428" y="129" width="824" height="792" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1581535804861" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1580554818299">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1580554818299" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -537,6 +589,81 @@
           <url>file://$PROJECT_DIR$/src/graph/BreadthFirstSearch.java</url>
           <line>19</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/cs/UTF_8.class</url>
+          <line>221</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>262</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>264</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>394</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>401</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>399</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>419</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>422</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>428</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>246</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Base64.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/tasks/Calculator.kt</url>
@@ -563,63 +690,12 @@
           <line>21</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/b/Base642.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>str.length</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cand</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cand == str</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>isOpenBasket(operators.peek())</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>isCloseBasket(char)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>operators.isEmpty() || isOpenBasket(char)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>operators.pop()
-operators</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>numbers.pop()
-numbers</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>numbers</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>char</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

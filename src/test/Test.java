@@ -1,40 +1,27 @@
 package test;
 
-import java.util.*;
-import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.ArrayList;
 
 public class Test {
-
-    public static void main(String[] args) throws InterruptedException {
-        HiddenIterator hi = new HiddenIterator();
-
-        hi.add(5);
-        hi.add(879);
-        hi.add(33);
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                while (true) {
-                    hi.addTenThings();
-                }
-            }
-        }).start();
-        Thread.sleep(1000L);
-
-        hi.addTenThings();
-
-    }
-
-    public static class HiddenIterator {
-        private final Set<Integer> set = new HashSet<Integer>();
-        public synchronized void add(Integer i) { set.add(i); } public synchronized void remove(Integer i) { set.remove(i); }
-        public void addTenThings() {
-            Random r = new Random();
-            for (int i = 0; i < 10; i++)
-                add(r.nextInt());
-//            System.out.println("DEBUG: added ten elements to " + set);
+    public static void main(String[] args) {
+        byte[] b = "В".getBytes();
+        for (byte b1 : b) {
+            System.out.println(Integer.toBinaryString(b1));
         }
     }
+
+    public static void calculate(char[] arrBytes){
+        System.out.println(arrBytes.length);
+        int lustIndex = 0;
+        ArrayList<String> shortList = new ArrayList<>();
+        for (int i = 0; i < arrBytes.length; i = i + 6) {
+            StringBuilder sb = new StringBuilder();
+            for (int j = lustIndex; j < i; j++) {
+                sb.append(arrBytes[j]);
+            }
+            lustIndex = i;
+            shortList.add(sb.toString());
+        }
+        System.out.println(shortList);
+    }
 }
-
-

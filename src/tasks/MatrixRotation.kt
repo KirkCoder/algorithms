@@ -7,9 +7,9 @@ fun main() {
         arrayOf(11, 16, 15, 6),
         arrayOf(10, 9,  8,  7)
     )
-    sout(matrix)
+    printArr(matrix)
     rotate(matrix)
-    sout(matrix)
+    printArr(matrix)
 }
 
 fun rotate(matrix: Array<Array<Int>>) {
@@ -23,11 +23,11 @@ fun rotate(matrix: Array<Array<Int>>) {
             matrix[end][end - offset] = matrix[i][end]
             matrix[i][end] = tmp
         }
-        sout(matrix)
+        printArr(matrix)
     }
 }
 
-fun sout(arr: Array<Array<Int>>){
+fun printArr(arr: Array<Array<Int>>){
     for (ints in arr) {
         for (int in ints) {
             print("$int  ")
