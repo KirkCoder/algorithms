@@ -1,5 +1,8 @@
 package sort
 
+import generateArray
+import showArray
+
 fun main() {
     val arr = generateArray()
     showArray(arr)

@@ -1,6 +1,6 @@
 package graph
 
-import sort.generateArray
+import generateArray
 
 fun main() {
     val arr = generateArray()

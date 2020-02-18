@@ -1,5 +1,3 @@
-import sort.showArray
-
 fun main() {
 //    val arr = Array(700) { (Math.random() * 32000).toInt() }
     val arr = arrayOf(1, 48, 1, 78, 78, 78, 2010, 552, 31000, 7800, 7600, 5200, 31000, 32000, 32000)

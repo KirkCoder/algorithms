@@ -1,5 +1,3 @@
-import sort.showArray
-
 fun main() {
     val arr = arrayOf(
         78, 78, 79, 89, 96, 96, 98, 98, 0,

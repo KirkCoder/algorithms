@@ -1,6 +1,9 @@
 package sort
 
-fun main(args: Array<String>){
+import generateArray
+import showArray
+
+fun main(){
     val arr = generateArray()
     showArray(arr)
     var step = arr.size / 2

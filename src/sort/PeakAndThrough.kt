@@ -1,6 +1,3 @@
-import sort.generateArray
-import sort.showArray
-
 fun main() {
     val arr = generateArray().toSet().toTypedArray()
     showArray(arr)

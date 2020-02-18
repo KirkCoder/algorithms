@@ -1,7 +1,7 @@
 package tasks
 
-import sort.generateArray
-import sort.showArray
+import generateArray
+import showArray
 
 fun main() {
     val arr = generateArray()

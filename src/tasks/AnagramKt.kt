@@ -1,5 +1,3 @@
-import sort.showArray
-
 fun main() {
     generateAnagram("abc").forEach {
         println(it)

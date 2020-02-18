@@ -1,4 +1,5 @@
-package sort
+import java.math.BigInteger
+import java.util.*
 
 fun <T> showArray(array: Array<T>) {
     for (i in array) {
@@ -16,3 +17,6 @@ fun generateNullableArray(length: Int = 32): Array<Int?> {
     }
     return arr
 }
+
+fun findBigPrime(): BigInteger =
+    BigInteger.probablePrime(4096, Random())
