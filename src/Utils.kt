@@ -1,8 +1,18 @@
-import sort.arr
 import java.math.BigInteger
 import java.util.*
 
 fun <T> showArray(array: Array<T>) {
+    for (i in array.indices) {
+        if (i < array.size - 1) {
+            print("${array[i]}, ")
+        } else {
+            print("${array[i]}")
+        }
+    }
+    println()
+}
+
+fun <T> showList(array: List<T>) {
     for (i in array.indices) {
         if (i < array.size - 1) {
             print("${array[i]}, ")
