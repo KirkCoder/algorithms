@@ -1,4 +1,4 @@
-package yandex.market
+package y.m
 
 import generateArray
 import java.util.*

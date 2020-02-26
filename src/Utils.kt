@@ -2,34 +2,20 @@ import java.math.BigInteger
 import java.util.*
 
 fun <T> showArray(array: Array<T>) {
-    for (i in array.indices) {
-        if (i < array.size - 1) {
-            print("${array[i]}, ")
-        } else {
-            print("${array[i]}")
-        }
-    }
-    println()
+    showIterable(array.iterator())
 }
 
-fun <T> showList(array: List<T>) {
-    for (i in array.indices) {
-        if (i < array.size - 1) {
-            print("${array[i]}, ")
-        } else {
-            print("${array[i]}")
-        }
-    }
-    println()
+fun <T> showList(list: List<T>) {
+    showIterable(list.iterator())
 }
 
 fun showArray(array: IntArray) {
-    for (i in array.indices) {
-        if (i < array.size - 1) {
-            print("${array[i]}, ")
-        } else {
-            print("${array[i]}")
-        }
+    showIterable(array.iterator())
+}
+
+fun <T> showIterable(iterator: Iterator<T>) {
+    while (iterator.hasNext()) {
+        print("${iterator.next()}, ")
     }
     println()
 }

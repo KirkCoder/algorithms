@@ -1,4 +1,4 @@
-package yandex.market
+package y.m
 
 /**
 Удалить смайлики вида ":-)))" и ":-((" из сообщения
