@@ -1,75 +1,53 @@
 package y.m
 
 import generateArray
-import java.util.*
-import kotlin.NoSuchElementException
+import showIterable
 
 /**
-Мердж нескольких итераторов
-PRB 4708
+Написать мульти-итератор
+PRB 2194
 Описание
-Написать функцию, на вход которой подается несколько итераторов, которые возвращают элементы в сортированном виде. Функция возвращает итератор по отсортированным значениям.
-Аналог питоновского heapq.merge
-https://docs.python.org/2/library/heapq.html#heapq.merge
+Написать класс  MultiIterator реализующий конкатенацию двух итераторов.
+class MultiIterator<T> implements Iterator<T> {
+private Iterator<T> a;
+private Iterator<T> b;
+
+public T next();
+public boolean hasNext();
+public void remove();
+}
+Документация для интерфейса  Iterator есть тут.
 Что хотим услышать
-Ожидаем, что алгоритм не будет получать все значения в память.
+Работающий код с краевыми случаями.
+Писать можно и на С++, принципиальных отличий нет.
+
  */
 
+
 fun main() {
-    val a1 = generateArray()
-    a1.sort()
-    val i1 = a1.iterator()
-    val a2 = generateArray()
-    a2.sort()
-    val i2 = a2.iterator()
-    val a3 = generateArray()
-    a3.sort()
-    val i3 = a3.iterator()
-    val mi = MergeIterator(i1, i2, i3)
-    while (mi.hasNext()) {
-        print("${mi.next()}, ")
-    }
+    val i1 = generateArray(length = 10)
+    showIterable(i1.iterator())
+    val i2 = generateArray(length = 10)
+    showIterable(i2.iterator())
+    val i = IteratorMerge(i1.iterator(), i2.iterator())
+    showIterable(i)
 }
 
-class MergeIterator<T : Comparable<T>>(private vararg val iterators: Iterator<T>) : Iterator<T> {
+class IteratorMerge<T>(
+    private vararg val iterators: Iterator<T>
+) : Iterator<T> {
 
-    private val elements = LinkedList<T>()
+    private var position = 0
 
     override fun hasNext(): Boolean {
-        for (iterator in iterators) {
-            if (iterator.hasNext()) return true
-        }
-        return elements.isNotEmpty()
+        if (position > iterators.size - 1) return false
+        if (iterators[position].hasNext()) return true
+        position++
+        return hasNext()
     }
 
     override fun next(): T {
-        var minValue: T? = if (elements.isNotEmpty()) elements.pop() else null
-        for (iterator in iterators) {
-            if (iterator.hasNext()) {
-                val value = iterator.next()
-                if (minValue == null) {
-                    minValue = value
-                }
-                if (minValue > value) {
-                    addElementToCache(minValue)
-                    minValue = value
-                } else {
-                    addElementToCache(value)
-                }
-            }
-        }
-        if (minValue == null) throw NoSuchElementException()
-        return minValue
+        if (position > iterators.size - 1) throw NoSuchElementException()
+        return iterators[position].next()
     }
-
-    private fun addElementToCache(element: T) {
-        for (i in elements.indices) {
-            if (elements[i] >= element) {
-                elements.add(i, element)
-                return
-            }
-        }
-        elements.add(elements.size, element)
-    }
-
 }
