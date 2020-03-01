@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/y/m/ListToRange.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/y/m/FindLastElementInLinkedList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
       <recent name="$PROJECT_DIR$/src/tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.y.m.ListToRangeKt">
+  <component name="RunManager" selected="Kotlin.y.m.FindLastElementInLinkedListKt">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="algorithms" />
@@ -59,6 +61,32 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="test.TestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="y.m.FindLastElementInLinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="y.m.FindLastElementInLinkedListKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,46 +117,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="y.m.ReverseLinkedListKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="y.m.ReverseLinkedListKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="yandex.market.IteratorMergeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="yandex.market.IteratorMergeKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Kotlin.y.m.IteratorMergeKt" />
-      <item itemvalue="Kotlin.y.m.ReverseLinkedListKt" />
-      <item itemvalue="Kotlin.yandex.market.IteratorMergeKt" />
       <item itemvalue="Kotlin.y.m.ListToRangeKt" />
+      <item itemvalue="Kotlin.y.m.FindLastElementInLinkedListKt" />
+      <item itemvalue="Kotlin.test.TestKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.y.m.FindLastElementInLinkedListKt" />
+        <item itemvalue="Kotlin.test.TestKt" />
         <item itemvalue="Kotlin.y.m.ListToRangeKt" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Kotlin.y.m.IteratorMergeKt" />
-        <item itemvalue="Kotlin.y.m.ReverseLinkedListKt" />
-        <item itemvalue="Kotlin.yandex.market.IteratorMergeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -456,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582748709473</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="create ListToRange.kt">
+      <created>1583065836366</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1583065836366</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TodoView">
@@ -469,7 +478,6 @@
     </todo-panel>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Comb sort" />
     <MESSAGE value="Add some tasks))" />
     <MESSAGE value="add fibRecurs" />
     <MESSAGE value="add Count Ways" />
@@ -494,7 +502,8 @@
     <MESSAGE value="add  merge iterators task" />
     <MESSAGE value="add reverseLinkedList" />
     <MESSAGE value="create MergeIterator.class" />
-    <option name="LAST_COMMIT_MESSAGE" value="create MergeIterator.class" />
+    <MESSAGE value="create ListToRange.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="create ListToRange.kt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="192" key="#Inspections" timestamp="1578682220927">
@@ -521,51 +530,51 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="762" y="211" width="760" height="724" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1581540505969" />
-    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1582748709353">
+    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1583065836219">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1582748709353" />
+    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1583065836219" />
     <state x="168" y="94" key="DiffContextDialog" timestamp="1582745140799">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1582745140799" />
-    <state width="1638" height="234" key="GridCell.Tab.0.bottom" timestamp="1583065805970">
+    <state width="1638" height="234" key="GridCell.Tab.0.bottom" timestamp="1583067762901">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="234" key="GridCell.Tab.0.bottom/-124.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1582010889895" />
     <state width="1638" height="444" key="GridCell.Tab.0.bottom/-124.-1057.1920.1057/0.23.1680.954@0.23.1680.954" timestamp="1580916438873" />
     <state width="1638" height="189" key="GridCell.Tab.0.bottom/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1582011594739" />
-    <state width="1638" height="234" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583065805970" />
+    <state width="1638" height="234" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1583067762901" />
     <state width="1638" height="199" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1576080512077" />
     <state width="1055" height="234" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1583064637136" />
     <state width="818" height="228" key="GridCell.Tab.0.bottom/0.23.1680.954@0.23.1680.954" timestamp="1580751520722" />
-    <state width="1638" height="234" key="GridCell.Tab.0.center" timestamp="1583065805968">
+    <state width="1638" height="234" key="GridCell.Tab.0.center" timestamp="1583067762899">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="234" key="GridCell.Tab.0.center/-124.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1582010889893" />
     <state width="1638" height="444" key="GridCell.Tab.0.center/-124.-1057.1920.1057/0.23.1680.954@0.23.1680.954" timestamp="1580916438871" />
     <state width="1638" height="189" key="GridCell.Tab.0.center/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1582011594738" />
-    <state width="1638" height="234" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583065805968" />
+    <state width="1638" height="234" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1583067762899" />
     <state width="1638" height="199" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1576080512074" />
     <state width="1055" height="234" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1583064637134" />
     <state width="818" height="228" key="GridCell.Tab.0.center/0.23.1680.954@0.23.1680.954" timestamp="1580751520720" />
-    <state width="1638" height="234" key="GridCell.Tab.0.left" timestamp="1583065805967">
+    <state width="1638" height="234" key="GridCell.Tab.0.left" timestamp="1583067762898">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="234" key="GridCell.Tab.0.left/-124.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1582010889892" />
     <state width="1638" height="444" key="GridCell.Tab.0.left/-124.-1057.1920.1057/0.23.1680.954@0.23.1680.954" timestamp="1580916438870" />
     <state width="1638" height="189" key="GridCell.Tab.0.left/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1582011594737" />
-    <state width="1638" height="234" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583065805967" />
+    <state width="1638" height="234" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1583067762898" />
     <state width="1638" height="199" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1576080512066" />
     <state width="1055" height="234" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1583064637133" />
     <state width="818" height="228" key="GridCell.Tab.0.left/0.23.1680.954@0.23.1680.954" timestamp="1580751520719" />
-    <state width="1638" height="234" key="GridCell.Tab.0.right" timestamp="1583065805969">
+    <state width="1638" height="234" key="GridCell.Tab.0.right" timestamp="1583067762900">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="234" key="GridCell.Tab.0.right/-124.-1057.1920.1057/0.23.1680.952@0.23.1680.952" timestamp="1582010889894" />
     <state width="1638" height="444" key="GridCell.Tab.0.right/-124.-1057.1920.1057/0.23.1680.954@0.23.1680.954" timestamp="1580916438872" />
     <state width="1638" height="189" key="GridCell.Tab.0.right/-124.-1080.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1582011594738" />
-    <state width="1638" height="234" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583065805969" />
+    <state width="1638" height="234" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1583067762900" />
     <state width="1638" height="199" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1576080512076" />
     <state width="1055" height="234" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1583064637135" />
     <state width="818" height="228" key="GridCell.Tab.0.right/0.23.1680.954@0.23.1680.954" timestamp="1580751520721" />
@@ -746,6 +755,11 @@
           <url>file://$PROJECT_DIR$/src/sort/ShellSort.kt</url>
           <line>47</line>
           <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Utils.kt</url>
+          <line>51</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
