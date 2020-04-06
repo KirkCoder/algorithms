@@ -9,8 +9,8 @@ PRB 2194
 Описание
 Написать класс  MultiIterator реализующий конкатенацию двух итераторов.
 class MultiIterator<T> implements Iterator<T> {
-private Iterator<T> a;
-private Iterator<T> b;
+private Iterator<T> crackin.a;
+private Iterator<T> crackin.b;
 
 public T next();
 public boolean hasNext();

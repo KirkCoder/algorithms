@@ -3,7 +3,7 @@ package sort;
 public class SortUtils {
 
     public static int[] getArray() {
-        int[] arr = new int[34];
+        int[] arr = new int[99];
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (int) (Math.random() * 99);
         }

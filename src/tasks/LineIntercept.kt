@@ -1,6 +1,6 @@
 package tasks
 
-// y = A*x + b
+// y = A*x + crackin.b
 // A = dy / dx
 
 fun main() {

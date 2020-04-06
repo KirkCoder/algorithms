@@ -1,27 +1,34 @@
 package test;
 
-import java.util.ArrayList;
-
 public class Test {
-    public static void main(String[] args) {
-        byte[] b = "В".getBytes();
-        for (byte b1 : b) {
-            System.out.println(Integer.toBinaryString(b1));
-        }
+
+    public static void main(String[] args){
+        int i = 0;
+        int j = ~i;
+        array4(new int[]{1, 2, 4, 4, 5, 6, 4, 7, 8});
+        array4(new int[3]);
     }
 
-    public static void calculate(char[] arrBytes){
-        System.out.println(arrBytes.length);
-        int lustIndex = 0;
-        ArrayList<String> shortList = new ArrayList<>();
-        for (int i = 0; i < arrBytes.length; i = i + 6) {
-            StringBuilder sb = new StringBuilder();
-            for (int j = lustIndex; j < i; j++) {
-                sb.append(arrBytes[j]);
+    public static int[] array4(int[] arr) {
+        int pos = -1;
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == 4) {
+                pos = i;
             }
-            lustIndex = i;
-            shortList.add(sb.toString());
         }
-        System.out.println(shortList);
+        if (pos == -1) {
+            throw new RuntimeException("4 нет в массиве");
+
+        }
+        int [] result = new int[arr.length - 1 - pos];
+        for (int i = pos + 1, j = 0; i < arr.length; i++, j++) {
+            result[j] = arr[i];
+        }
+
+        for (int i : result) {
+            System.out.println(i);
+        }
+
+        return result;
     }
 }
