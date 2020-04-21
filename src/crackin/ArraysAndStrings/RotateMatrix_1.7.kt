@@ -1,5 +1,7 @@
 package crackin.ArraysAndStrings
 
+import showMatrix
+
 fun main() {
     val matrix = arrayOf(
         arrayOf(1,  2,  3,  4),
@@ -7,6 +9,15 @@ fun main() {
         arrayOf(11, 16, 15,  6),
         arrayOf(10,  9,  8,  7)
     )
+
+//    val matrix = arrayOf(
+//        arrayOf(0, 1, 1, 1, 1, 1),
+//        arrayOf(1, 0, 2, 2, 2, 1),
+//        arrayOf(1, 2, 0, 3, 2, 1),
+//        arrayOf(1, 2, 3, 3, 2, 1),
+//        arrayOf(1, 2, 2, 2, 2, 1),
+//        arrayOf(1, 1, 1, 1, 1, 1)
+//    )
 
 //    val matrix = arrayOf(
 //        arrayOf(1, 2),
@@ -17,10 +28,6 @@ fun main() {
 }
 
 private fun rotate(matrix: Array<Array<Int>>) {
-
-
-
-
     var offset = 0
     while (offset < matrix.size / 2) {
         val n = matrix.size - 1 - offset
@@ -36,15 +43,4 @@ private fun rotate(matrix: Array<Array<Int>>) {
         showMatrix(matrix)
         offset++
     }
-}
-
-private fun showMatrix(arr: Array<Array<Int>>) {
-    for (ints in arr) {
-        for (int in ints) {
-            print("$int  ")
-            if (int < 10) print(" ")
-        }
-        println()
-    }
-    println()
 }

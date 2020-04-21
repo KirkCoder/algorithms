@@ -33,6 +33,17 @@ fun generateNullableArray(length: Int = 32): Array<Int?> {
 fun findBigPrime(): BigInteger =
     BigInteger.probablePrime(4096, Random())
 
+fun showMatrix(arr: Array<Array<Int>>) {
+    for (ints in arr) {
+        for (int in ints) {
+            print("$int  ")
+            if (int < 10) print(" ")
+        }
+        println()
+    }
+    println()
+}
+
 class SingleLinkedList<T> : Iterable<T> {
 
     private var start: Node<T>? = null
