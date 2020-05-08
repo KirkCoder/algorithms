@@ -1,5 +1,7 @@
 package test
 
+import showMatrix
+
 
 fun main() {
     val matrix = arrayOf(
@@ -14,13 +16,12 @@ fun main() {
     showMatrix(matrix)
 }
 
-private fun rotate(matrix: Array<Array<Int>>) {
+fun rotate(matrix: Array<Array<Int>>) {
     var offset = 0
-
-    while (offset < matrix.size / 2) {
-        val n = matrix.size - 1 - offset
+    var n = matrix.size - 1
+    while (offset < n) {
         var step = 0
-        while (step < n - offset) {
+        while (offset + step < n) {
             val tmp = matrix[offset + step][offset]
             matrix[offset + step][offset] = matrix[n][offset + step]
             matrix[n][offset + step] = matrix[n - step][n]
@@ -29,16 +30,6 @@ private fun rotate(matrix: Array<Array<Int>>) {
             step++
         }
         offset++
+        n = matrix.size - 1 - offset
     }
-}
-
-private fun showMatrix(arr: Array<Array<Int>>) {
-    for (ints in arr) {
-        for (int in ints) {
-            print("$int  ")
-            if (int < 10) print(" ")
-        }
-        println()
-    }
-    println()
 }

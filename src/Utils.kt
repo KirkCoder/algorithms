@@ -20,14 +20,26 @@ fun <T> showIterable(iterator: Iterator<T>) {
     println()
 }
 
-fun generateArray(length: Int = 32, maxItemValue: Int = 99) = Array(length) { (Math.random() * maxItemValue).toInt() }
+@JvmOverloads
+fun generateArray(length: Int = 32, maxItemValue: Int = 99) = Array(length) { generateRandomInt(maxItemValue) }
 
-fun generateNullableArray(length: Int = 32): Array<Int?> {
+@JvmOverloads
+fun generateNullableArray(length: Int = 32, maxItemValue: Int = 99): Array<Int?> {
     val arr = arrayOfNulls<Int>(length)
     for (i in arr.withIndex()) {
-        arr[i.index] = (Math.random() * 99).toInt()
+        arr[i.index] = generateRandomInt(maxItemValue)
     }
     return arr
+}
+
+fun generateRandomInt(maxItemValue: Int) = (Math.random() * maxItemValue).toInt()
+
+fun generateSingleLinkedList(length: Int = 10, maxItemValue: Int = 99): SingleLinkedList<Int> {
+    return SingleLinkedList<Int>().apply {
+        for (i in 0..length) {
+            add(generateRandomInt(maxItemValue))
+        }
+    }
 }
 
 fun findBigPrime(): BigInteger =
@@ -46,7 +58,18 @@ fun showMatrix(arr: Array<Array<Int>>) {
 
 class SingleLinkedList<T> : Iterable<T> {
 
-    private var start: Node<T>? = null
+    var start: Node<T>? = null
+
+    val length: Int
+        get() {
+            val i = iterator()
+            var count = -1
+            while (i.hasNext()) {
+                count++
+                i.next()
+            }
+            return count
+        }
 
     fun add(value: T) {
         val node = Node(value)
@@ -68,10 +91,24 @@ class SingleLinkedList<T> : Iterable<T> {
         return SingleLinkedListIterator(start)
     }
 
-    private class Node<T>(
+    fun nodesIterator(): Iterator<Node<T>> {
+        return SingleLinkedListNodeIterator(start)
+    }
+
+    fun show() {
+        showIterable(iterator())
+    }
+
+    fun isEmpty() = start == null
+
+    class Node<T>(
         val value: T,
         var next: Node<T>? = null
-    )
+    ) {
+        fun changeNext(value: T) {
+            next = Node(value)
+        }
+    }
 
     private class SingleLinkedListIterator<T>(
         private var node: Node<T>?
@@ -83,6 +120,20 @@ class SingleLinkedList<T> : Iterable<T> {
             val current = node ?: throw NoSuchElementException()
             node = current.next
             return current.value
+        }
+
+    }
+
+    private class SingleLinkedListNodeIterator<T>(
+        private var node: Node<T>?
+    ) : Iterator<Node<T>> {
+
+        override fun hasNext() = node != null
+
+        override fun next(): Node<T> {
+            val current = node ?: throw NoSuchElementException()
+            node = current.next
+            return current
         }
 
     }
