@@ -9,7 +9,39 @@ import java.lang.StringBuilder
 
 fun main() {
     val input = "Mr John Smith    "
+    println(replaceSpaces(input.toCharArray()))
     println(urlifi(input, input.trim().length))
+}
+
+fun replaceSpaces(input: CharArray): CharArray {
+    val replacement = "%20".toCharArray()
+    val space = ' '
+    var firstCharFound = false
+    var position = input.size - 1
+    var i = input.size - 1
+    while (i > 0) {
+
+        if (!firstCharFound) {
+            if (input[i] != space) {
+                firstCharFound = true
+            } else {
+                i--
+            }
+        }
+
+        if (firstCharFound) {
+            if (input[i] != space) {
+                input[position--] = input[i--]
+            } else {
+                input[position--] = replacement[2]
+                input[position--] = replacement[1]
+                input[position--] = replacement[0]
+                i--
+            }
+        }
+    }
+
+    return input
 }
 
 private const val SPACE_REPLACER = "%20"

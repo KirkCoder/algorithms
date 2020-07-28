@@ -13,8 +13,64 @@ fun main() {
         arrayOf(1, 2, 2, 2, 2, 1),
         arrayOf(1, 0, 1, 1, 1, 1)
     )
-    zeroMatrix(matrix)
+    zeroidMatrix(matrix)
     showMatrix(matrix)
+}
+
+fun zeroidMatrix(matrix: Array<Array<Int>>) {
+    var isColumnHasZero = false
+    var isRowHasZero = false
+
+    for (i in 0 until matrix.size) {
+        if(matrix[i][0] == 0) {
+            isColumnHasZero = true
+            break
+        }
+    }
+
+    for (i in 0 until matrix[0].size) {
+        if(matrix[0][i] == 0) {
+            isRowHasZero = true
+            break
+        }
+    }
+
+    for (i in 1 until matrix.size) {
+        for (j in 1 until matrix.size) {
+            if(matrix[i][j] == 0) {
+                matrix[i][0] = 0
+                matrix[0][j] = 0
+            }
+        }
+    }
+
+    for (i in 0 until matrix.size) {
+        if(matrix[i][0] == 0) {
+            for(j in 0 until matrix[i].size) {
+                matrix[i][j] = 0
+            }
+        }
+    }
+
+    for (j in 0 until matrix[0].size) {
+        if(matrix[0][j] == 0) {
+            for (i in 0 until matrix.size) {
+                matrix[i][j] = 0
+            }
+        }
+    }
+
+    if (isColumnHasZero) {
+        for (i in 0 until matrix.size) {
+            matrix[0][i] = 0
+        }
+    }
+
+    if (isRowHasZero) {
+        for (i in 0 until matrix.size) {
+            matrix[0][i] = 0
+        }
+    }
 }
 
 private fun zeroMatrix(matrix: Array<Array<Int>>) {

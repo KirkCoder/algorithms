@@ -2,21 +2,58 @@ package crackin.LinkList
 
 import SingleLinkedList
 import showIterable
+import java.util.*
+import kotlin.collections.HashSet
 
 //2.1 Remove Dups: Write code to remove duplicates from an unsorted linked list. FOLLOW UP
 //How would you solve this problem if a temporary buffer is not allowed?
 
 fun main() {
     val list = SingleLinkedList<Int>()
+//    val list = LinkedList<Int>()
     list.add(1)
     list.add(4)
+    list.add(75)
     list.add(75)
     list.add(45)
     list.add(8)
     list.add(4)
     list.add(95)
-    withBuffer(list)
+    list.add(75)
+    removeDuplicatesNoBuffer(list)
     showIterable(list.iterator())
+}
+
+fun removeDuplicates(list: LinkedList<Int>){
+    val set = mutableSetOf<Int>()
+    val i = list.iterator()
+    while (i.hasNext()) {
+        val element = i.next()
+        if (set.contains(element)) {
+            i.remove()
+        } else {
+            set.add(element)
+        }
+    }
+}
+
+fun removeDuplicatesNoBuffer(list: SingleLinkedList<Int>){
+
+    var slow = list.start
+    while(slow?.next != null) {
+        var next = slow.next
+        var prev = slow
+        while (next != null) {
+            if(next.value == slow.value) {
+                prev?.next = next.next
+                next = next.next
+            } else {
+                prev = next
+                next = next.next
+            }
+        }
+        slow = slow.next
+    }
 }
 
 private fun withBuffer(list: SingleLinkedList<Int>) {

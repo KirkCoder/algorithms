@@ -8,7 +8,7 @@ package crackin.ArraysAndStrings
 fun main() {
 //    val input = "tac6tco8a68"
     val input = "Tact Coa"
-    println(isPalindromePermutation(input))
+    println(isPalindromePermutation1(input))
 }
 
 // only ACSII

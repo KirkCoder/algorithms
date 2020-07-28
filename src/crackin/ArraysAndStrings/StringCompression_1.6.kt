@@ -6,7 +6,42 @@ import java.lang.StringBuilder
 
 fun main() {
     val input = "aabccccctaaa"
-    println(compress(input))
+    println(compress2(input))
+}
+
+fun compress2(input: String): String {
+    var prev: Char? = null
+    var prevCount = 0
+    val sb = StringBuilder()
+    for (c in input) {
+        when {
+            prev == null -> {
+                prev = c
+                prevCount++
+            }
+            prev == c -> {
+                prevCount++
+            }
+            prevCount == 1 -> {
+                sb.append(prev)
+                prev = c
+                prevCount = 1
+            }
+            else -> {
+                sb.append(prev)
+                sb.append(prevCount)
+                prev = c
+                prevCount = 1
+            }
+        }
+    }
+    if (prevCount > 1) {
+        sb.append(prev)
+        sb.append(prevCount)
+    } else {
+        sb.append(prev)
+    }
+    return sb.toString()
 }
 
 private fun compress(input: String): String {

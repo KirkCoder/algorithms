@@ -42,6 +42,14 @@ fun generateSingleLinkedList(length: Int = 10, maxItemValue: Int = 99): SingleLi
     }
 }
 
+fun generateLinkedList(length: Int = 10, maxItemValue: Int = 99): LinkedList<Int> {
+    return LinkedList<Int>().apply {
+        for (i in 0..length) {
+            add(generateRandomInt(maxItemValue))
+        }
+    }
+}
+
 fun findBigPrime(): BigInteger =
     BigInteger.probablePrime(4096, Random())
 
@@ -71,6 +79,16 @@ class SingleLinkedList<T> : Iterable<T> {
             return count
         }
 
+    val last: Node<T>?
+        get() {
+            val i = nodesIterator()
+            var last: Node<T>? = null
+            while (i.hasNext()) {
+                last = i.next()
+            }
+            return last
+        }
+
     fun add(value: T) {
         val node = Node(value)
         val tmpStart = start
@@ -84,6 +102,20 @@ class SingleLinkedList<T> : Iterable<T> {
                 next = current.next
             }
             current!!.next = node
+        }
+    }
+
+    fun addAll(list: SingleLinkedList<T>) {
+        if (list.isEmpty()) return
+        val i = list.nodesIterator()
+        if (start == null) {
+            start = i.next()
+        }
+        var currentLast = last ?: start!!
+        while (i.hasNext()) {
+            val next = i.next()
+            currentLast.next = next
+            currentLast = next
         }
     }
 

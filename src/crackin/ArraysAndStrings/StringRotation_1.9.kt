@@ -3,7 +3,27 @@ package crackin.ArraysAndStrings
 //String Rotation: Assume you have a method i 5 S u b s t r i n g which checks ifone word is a substring of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one call to isSubstring (e.g., Uwaterbottleu is a rotation of uerbottlewatU).
 
 fun main() {
-    println(isSubstring("waterbottle", "erbottlewat"))
+    println(isSubString3("waterbottle", "erbottlewat"))
+}
+
+fun isSubString3(first: String, second: String): Boolean {
+    val connect = first + first
+    for (i in 0 until connect.length) {
+        if (connect[i] == second[0] && checkAll(connect, i, second)) {
+            return true
+        }
+    }
+    return false
+}
+
+fun checkAll(connect: String, index: Int, second: String): Boolean {
+    var j = 0
+    for(i in index until index + second.length) {
+        if(connect[i] != second[j++]) {
+            return false
+        }
+    }
+    return true
 }
 
 private fun isSubstring(s1: String, s2: String): Boolean {

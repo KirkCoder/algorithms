@@ -2,8 +2,8 @@ package tasks
 
 import java.nio.charset.StandardCharsets
 
-val base64Chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".toCharArray()
-val base64Stub = '='
+private val base64Chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".toCharArray()
+private val base64Stub = '='
 
 fun main() {
     val str = "васо привет good by435 lkdf  testtttt!!!"
@@ -29,7 +29,7 @@ fun bytesToBase64(bytes: ByteArray): CharArray {
                 (bytes[position++].toInt() and 0xFF shl 8) or
                 (bytes[position++].toInt() and 0xFF)
 
-        result[resultPosition++] = base64Chars[((point ushr 18) and 0x3F)]
+        result[resultPosition++] = base64Chars[point ushr 18]
         result[resultPosition++] = base64Chars[((point ushr 12) and 0x3F)]
         result[resultPosition++] = base64Chars[((point ushr 6) and 0x3F)]
         result[resultPosition++] = base64Chars[(point and 0x3F)]
