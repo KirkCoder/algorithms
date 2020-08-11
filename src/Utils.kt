@@ -71,7 +71,7 @@ class SingleLinkedList<T> : Iterable<T> {
     val length: Int
         get() {
             val i = iterator()
-            var count = -1
+            var count = 0
             while (i.hasNext()) {
                 count++
                 i.next()
@@ -170,4 +170,51 @@ class SingleLinkedList<T> : Iterable<T> {
 
     }
 
+}
+
+class Stack<T> {
+    private var head: Node<T>? = null
+
+    fun push(value: T) {
+        val node = Node(value)
+        if (head != null) {
+            node.prev = head
+        }
+        head = node
+    }
+
+    fun pop(): T {
+        if (isNotEmpty()) {
+            val tmp = head!!.value
+            head = head!!.prev
+            return tmp
+        } else {
+            throw NoSuchElementException()
+        }
+    }
+
+    fun peek(): T {
+        if (isNotEmpty()) {
+            return head!!.value
+        } else {
+            throw NoSuchElementException()
+        }
+    }
+
+    fun isEmpty() = head == null
+    fun isNotEmpty() = head != null
+    fun size(): Int {
+        if (head == null) {
+            return 0
+        }
+        var size = 0
+        var next = head
+        while (next != null) {
+            size++
+            next = next.prev
+        }
+        return size
+    }
+
+    class Node<T>(val value: T, var prev: Node<T>? = null)
 }
