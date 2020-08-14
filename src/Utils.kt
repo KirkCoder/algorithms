@@ -90,7 +90,10 @@ class SingleLinkedList<T> : Iterable<T> {
         }
 
     fun add(value: T) {
-        val node = Node(value)
+        add(Node(value))
+    }
+
+    fun add(node: Node<T>) {
         val tmpStart = start
         if (tmpStart == null) {
             start = node
