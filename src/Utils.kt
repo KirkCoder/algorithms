@@ -1,5 +1,6 @@
 import java.math.BigInteger
 import java.util.*
+import kotlin.NoSuchElementException
 
 fun <T> showArray(array: Array<T>) {
     showIterable(array.iterator())
@@ -108,6 +109,25 @@ class SingleLinkedList<T> : Iterable<T> {
         }
     }
 
+    fun removeLast(): T {
+        val i = nodesIterator()
+        if (!i.hasNext()) throw NoSuchElementException()
+        var prev: Node<T>? = i.next()
+        var next = prev?.next
+        if (next == null) {
+            val tmp = prev!!.value
+            start = null
+            return tmp
+        }
+        while (i.hasNext()) {
+            prev = next
+            next = i.next()
+        }
+        val tmp = next!!.value
+        prev?.next = null
+        return tmp
+    }
+
     fun addAll(list: SingleLinkedList<T>) {
         if (list.isEmpty()) return
         val i = list.nodesIterator()
@@ -176,7 +196,9 @@ class SingleLinkedList<T> : Iterable<T> {
 }
 
 class Stack<T> {
-    private var head: Node<T>? = null
+    var head: Node<T>? = null
+    var size: Int = 0
+        private set
 
     fun push(value: T) {
         val node = Node(value)
@@ -184,12 +206,14 @@ class Stack<T> {
             node.prev = head
         }
         head = node
+        size++
     }
 
     fun pop(): T {
         if (isNotEmpty()) {
             val tmp = head!!.value
             head = head!!.prev
+            size--
             return tmp
         } else {
             throw NoSuchElementException()
@@ -206,18 +230,61 @@ class Stack<T> {
 
     fun isEmpty() = head == null
     fun isNotEmpty() = head != null
-    fun size(): Int {
-        if (head == null) {
-            return 0
+
+    fun show() {
+        var node = head
+        val list = mutableListOf<T>()
+        while (node != null) {
+            list.add(node.value)
+            node = node.prev
         }
-        var size = 0
-        var next = head
-        while (next != null) {
-            size++
-            next = next.prev
-        }
-        return size
+        list.reverse()
+        showIterable(list.iterator())
     }
 
     class Node<T>(val value: T, var prev: Node<T>? = null)
+}
+
+class Queue<T> {
+    var start: Node<T>? = null
+    private set
+    var end: Node<T>? = null
+    private set
+
+
+    fun add(value: T) {
+        val node = Node(value)
+        if (start == null) {
+            start = node
+            end = node
+        } else {
+            end!!.next = node
+            end = node
+        }
+    }
+
+    fun remove(): T {
+        val tmp = start ?: throw NoSuchElementException()
+        start = tmp.next
+        if (start == null) {
+            end = null
+        }
+        return tmp.value
+    }
+
+    fun peek(): T {
+        return start?.value ?: throw NoSuchElementException()
+    }
+
+    fun show() {
+        var next = start
+        val list = mutableListOf<T>()
+        while (next != null) {
+            list.add(next.value)
+            next = next.next
+        }
+        showIterable(list.iterator())
+    }
+
+    class Node<T>(val value: T, var next: Node<T>? = null)
 }
