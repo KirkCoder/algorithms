@@ -6,10 +6,10 @@ import java.util.*
 
 fun main() {
     val list = LinkedList<Number>()
-    list.add(3L)
-    list[0]
-
-
+    list.add(1)
+    list.add(2)
+    list.add(3)
+    println(list.pop())
 }
 
 class Test

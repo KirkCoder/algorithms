@@ -1,3 +1,4 @@
+import crackin.Graphs.getNodesList
 import java.math.BigInteger
 import java.util.*
 import kotlin.NoSuchElementException
@@ -247,9 +248,9 @@ class Stack<T> {
 
 class Queue<T> {
     var start: Node<T>? = null
-    private set
+        private set
     var end: Node<T>? = null
-    private set
+        private set
 
 
     fun add(value: T) {
@@ -288,3 +289,106 @@ class Queue<T> {
 
     class Node<T>(val value: T, var next: Node<T>? = null)
 }
+
+
+data class GraphNode<T>(
+    val value: T,
+    var adjacencs: List<GraphNode<T>> = emptyList(),
+    var left: GraphNode<T>? = null,
+    var right: GraphNode<T>? = null
+) {
+
+    override fun toString(): String {
+        return "$value, adjacencs: ${adjacencs.map { it.value }.joinToString(", ")}. "
+    }
+
+    fun showWithAdjacencs() {
+        print("(Node: $value, left: ${left?.value}, right: ${right?.value}), ")
+    }
+}
+
+fun <T> showBinaryTree(head: GraphNode<T>) {
+    val list = getNodesList(head)
+    for (nodes in list) {
+        println(nodes.map { it.value }.joinToString(", "))
+    }
+    println()
+    for (nodes in list) {
+        println(nodes.forEach { it.showWithAdjacencs() })
+    }
+}
+
+fun getDirectGraph(): List<GraphNode<Int>> {
+    val graph = mutableListOf<GraphNode<Int>>()
+
+    val zero = GraphNode(0)
+    val one = GraphNode(1)
+    val two = GraphNode(2)
+    val three = GraphNode(3)
+    val four = GraphNode(4)
+    val five = GraphNode(5)
+    val six = GraphNode(6)
+    val seven = GraphNode(7)
+    two.adjacencs = listOf(three)
+    three.adjacencs = listOf(four)
+    four.adjacencs = listOf(two)
+    five.adjacencs = listOf(seven)
+    six.adjacencs = listOf(five, one)
+    seven.adjacencs = listOf(zero, two)
+
+    graph.add(zero)
+    graph.add(one)
+    graph.add(two)
+    graph.add(three)
+    graph.add(four)
+    graph.add(five)
+    graph.add(six)
+    graph.add(seven)
+
+    return graph
+}
+
+fun getNotBalancedBinaryTree(): GraphNode<Int> {
+    val zero = GraphNode(0)
+    val one = GraphNode(1)
+    val two = GraphNode(2)
+    val three = GraphNode(3)
+    val four = GraphNode(4)
+    val five = GraphNode(5)
+    val six = GraphNode(6)
+    val seven = GraphNode(7)
+    val eight = GraphNode(8)
+
+    zero.left = one
+    zero.right = two
+
+    one.left = three
+    one.right = four
+
+    two.left = five
+    two.right = six
+
+    three.left = seven
+
+    seven.right = eight
+    return zero
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
