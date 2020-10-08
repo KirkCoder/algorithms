@@ -1,18 +1,15 @@
 package crackin.Graphs
 
 import GraphNode
-import generateArray
+import generateUniqueSortedArray
 import getNotBalancedBinaryTree
-import showBinaryTree
 import kotlin.math.abs
 import kotlin.math.max
 
 //Implement a function to check if a binary tree is balanced. For the purposes of this question, a balanced tree is defined to be a tree such that the heights of the two subtrees of any node never differ by more than one.
 
 fun main() {
-    val array = generateArray()
-    array.sort()
-    val tree = getMinSearchTree(array)
+    val array = generateUniqueSortedArray()
 //    println(isTreeBalanced(tree!!))
     println(isTreeBalanced(getNotBalancedBinaryTree()))
 }

@@ -5,11 +5,9 @@ import sun.util.calendar.CalendarUtils.mod
 import java.util.*
 
 fun main() {
-    val list = LinkedList<Number>()
-    list.add(1)
-    list.add(2)
-    list.add(3)
-    println(list.pop())
+    val a = "abcrrr"
+    val b = "cr"
+    println(a.indexOf(b))
 }
 
 class Test

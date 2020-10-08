@@ -4,7 +4,7 @@ import generateArray
 import showArray
 
 
-val arr = generateArray(76)
+private val arr = generateArray(76)
 
 fun main() {
     showArray(arr)

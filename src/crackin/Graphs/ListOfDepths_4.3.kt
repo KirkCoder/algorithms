@@ -1,19 +1,19 @@
 package crackin.Graphs
 
 import GraphNode
-import generateArray
+import generateUniqueSortedArray
 
 fun main() {
-    val head = getMinSearchTree(generateArray())!!
+    val head = getMinSearchTree(generateUniqueSortedArray())!!
     val first = getNodesList(head)
     val second = getNodesListNotRecurs(head)
 
-    showList(first)
+    showGraphNodeList(first)
     println("===================")
-    showList(second)
+    showGraphNodeList(second)
 }
 
-private fun showList(list: List<List<GraphNode<Int>>>) {
+private fun showGraphNodeList(list: List<List<GraphNode<Int>>>) {
     for (nodes in list) {
         println(nodes.map { it.value }.joinToString(", "))
     }

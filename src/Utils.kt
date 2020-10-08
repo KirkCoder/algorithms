@@ -26,6 +26,15 @@ fun <T> showIterable(iterator: Iterator<T>) {
 fun generateArray(length: Int = 32, maxItemValue: Int = 99) = Array(length) { generateRandomInt(maxItemValue) }
 
 @JvmOverloads
+fun generateUniqueSortedArray(maxLength: Int = 32, maxItemValue: Int = 99): Array<Int> {
+    val array = generateArray(maxLength, maxItemValue)
+    val set = array.toSet()
+    val result = set.toTypedArray()
+    result.sort()
+    return result
+}
+
+@JvmOverloads
 fun generateNullableArray(length: Int = 32, maxItemValue: Int = 99): Array<Int?> {
     val arr = arrayOfNulls<Int>(length)
     for (i in arr.withIndex()) {
@@ -293,10 +302,15 @@ class Queue<T> {
 
 data class GraphNode<T>(
     val value: T,
-    var adjacencs: List<GraphNode<T>> = emptyList(),
+    var adjacencs: List<GraphNode<T>> = mutableListOf(),
     var left: GraphNode<T>? = null,
-    var right: GraphNode<T>? = null
+    var right: GraphNode<T>? = null,
+    var parent: GraphNode<T>? = null
 ) {
+
+    override fun hashCode(): Int {
+        return value.toString().toInt()
+    }
 
     override fun toString(): String {
         return "$value, adjacencs: ${adjacencs.map { it.value }.joinToString(", ")}. "
@@ -374,6 +388,46 @@ fun getNotBalancedBinaryTree(): GraphNode<Int> {
     return zero
 }
 
+fun getBinarySearchWikiTree(): Pair<MutableMap<Int, GraphNode<Int>>, GraphNode<Int>> {
+    val one = GraphNode(1)
+    val three = GraphNode(3)
+    val four = GraphNode(4)
+    val six = GraphNode(6)
+    val seven = GraphNode(7)
+    val eight = GraphNode(8)
+    val ten = GraphNode(10)
+    val thirteen = GraphNode(13)
+    val fourteen = GraphNode(14)
+
+    val nodes = mutableMapOf<Int, GraphNode<Int>>()
+    nodes[1] = one
+    nodes[3] = three
+    nodes[4] = four
+    nodes[6] = six
+    nodes[7] = seven
+    nodes[8] = eight
+    nodes[10] = ten
+    nodes[13] = thirteen
+    nodes[14] = fourteen
+
+    one.parent = three
+    three.left = one
+    three.right = six
+    three.parent = eight
+    six.left = four
+    six.right = seven
+    six.parent = three
+    four.parent = six
+    seven.parent = six
+    eight.left = three
+    eight.right = ten
+    ten.parent = eight
+    ten.right = fourteen
+    fourteen.parent = ten
+    fourteen.left = thirteen
+    thirteen.parent = fourteen
+    return Pair(nodes, eight)
+}
 
 
 
