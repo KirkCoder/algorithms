@@ -1,6 +1,8 @@
 import crackin.Graphs.getNodesList
+import tasks.Heap
 import java.math.BigInteger
 import java.util.*
+import kotlin.Comparator
 import kotlin.NoSuchElementException
 
 fun <T> showArray(array: Array<T>) {
@@ -302,7 +304,8 @@ class Queue<T> {
 
 data class GraphNode<T>(
     val value: T,
-    var adjacencs: List<GraphNode<T>> = mutableListOf(),
+    var visited: Boolean = false,
+    var adjacencs: MutableList<GraphNode<T>> = mutableListOf(),
     var left: GraphNode<T>? = null,
     var right: GraphNode<T>? = null,
     var parent: GraphNode<T>? = null
@@ -343,12 +346,44 @@ fun getDirectGraph(): List<GraphNode<Int>> {
     val five = GraphNode(5)
     val six = GraphNode(6)
     val seven = GraphNode(7)
-    two.adjacencs = listOf(three)
-    three.adjacencs = listOf(four)
-    four.adjacencs = listOf(two)
-    five.adjacencs = listOf(seven)
-    six.adjacencs = listOf(five, one)
-    seven.adjacencs = listOf(zero, two)
+    two.adjacencs = mutableListOf(three)
+    three.adjacencs = mutableListOf(four)
+    four.adjacencs = mutableListOf(two)
+    five.adjacencs = mutableListOf(seven)
+    six.adjacencs = mutableListOf(five, one)
+    seven.adjacencs = mutableListOf(zero, two)
+
+    graph.add(zero)
+    graph.add(one)
+    graph.add(two)
+    graph.add(three)
+    graph.add(four)
+    graph.add(five)
+    graph.add(six)
+    graph.add(seven)
+
+    return graph
+}
+
+fun getNotOrientedGraph(): List<GraphNode<Int>> {
+    val graph = mutableListOf<GraphNode<Int>>()
+
+    val zero = GraphNode(0)
+    val one = GraphNode(1)
+    val two = GraphNode(2)
+    val three = GraphNode(3)
+    val four = GraphNode(4)
+    val five = GraphNode(5)
+    val six = GraphNode(6)
+    val seven = GraphNode(7)
+    zero.adjacencs = mutableListOf(seven)
+    one.adjacencs = mutableListOf(six)
+    two.adjacencs = mutableListOf(three, four, seven)
+    three.adjacencs = mutableListOf(four, two)
+    four.adjacencs = mutableListOf(two, three)
+    five.adjacencs = mutableListOf(seven, six)
+    six.adjacencs = mutableListOf(five, one)
+    seven.adjacencs = mutableListOf(zero, two, five)
 
     graph.add(zero)
     graph.add(one)
@@ -427,6 +462,14 @@ fun getBinarySearchWikiTree(): Pair<MutableMap<Int, GraphNode<Int>>, GraphNode<I
     fourteen.left = thirteen
     thirteen.parent = fourteen
     return Pair(nodes, eight)
+}
+
+fun <T> List<T>.toLinkedList(): LinkedList<T> {
+    val list = LinkedList<T>()
+    for (element in this) {
+        list.add(element)
+    }
+    return list
 }
 
 
