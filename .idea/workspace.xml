@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/crackin/Graphs/DijkstraAlgorithm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Graphs/BinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Graphs/DijkstraExample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Graphs/DijkstraGraphs.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/BuildOrder_4_7Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/BuildOrder_4_7Kt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +42,16 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/crackin/Graphs" />
+      <recent name="$PROJECT_DIR$/src/crackin/DijkstraExample" />
+      <recent name="$PROJECT_DIR$/src/crackin/DijkstraGraphs" />
       <recent name="$PROJECT_DIR$/src/crackin/StacksAndQueues" />
       <recent name="$PROJECT_DIR$/src/test" />
-      <recent name="$PROJECT_DIR$/src/tmp" />
-      <recent name="$PROJECT_DIR$/src/yandex/market" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Geek\algorithms\src\tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.crackin.Graphs.DijkstraAlgorithmKt">
+  <component name="RunManager" selected="Kotlin.crackin.Graphs.BinaryTreeKt">
     <configuration name="crackin.Graphs.BfsRoadKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
@@ -60,6 +60,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="crackin.Graphs.BfsRoadKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="crackin.Graphs.BinaryTreeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="crackin.Graphs.BinaryTreeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,19 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="crackin.Graphs.FindPathSum_4_12Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crackin.Graphs.FindPathSum_4_12Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="crackin.Graphs.TopoligicalSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
@@ -118,19 +118,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.crackin.Graphs.FindPathSum_4_12Kt" />
       <item itemvalue="Kotlin.crackin.Graphs.BfsRoadKt" />
       <item itemvalue="Kotlin.crackin.Graphs.TopoligicalSortKt" />
       <item itemvalue="Kotlin.crackin.Graphs.BuildOrder_4_7Kt" />
       <item itemvalue="Kotlin.crackin.Graphs.DijkstraAlgorithmKt" />
+      <item itemvalue="Kotlin.crackin.Graphs.BinaryTreeKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.crackin.Graphs.BinaryTreeKt" />
         <item itemvalue="Kotlin.crackin.Graphs.DijkstraAlgorithmKt" />
         <item itemvalue="Kotlin.crackin.Graphs.BuildOrder_4_7Kt" />
         <item itemvalue="Kotlin.crackin.Graphs.TopoligicalSortKt" />
         <item itemvalue="Kotlin.crackin.Graphs.BfsRoadKt" />
-        <item itemvalue="Kotlin.crackin.Graphs.FindPathSum_4_12Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -156,13 +156,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551000252476</updated>
-    </task>
-    <task id="LOCAL-00007" summary="add topological sort">
-      <created>1552239443283</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1552239443283</updated>
     </task>
     <task id="LOCAL-00008" summary="add DagShortestPath">
       <created>1552335244733</created>
@@ -500,11 +493,17 @@
       <option name="project" value="LOCAL" />
       <updated>1602421761648</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="add Dijkstra algorithm">
+      <created>1602444251896</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1602444251896</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="calculator" />
     <MESSAGE value="PlusMinusBit.kt" />
     <MESSAGE value="TowerFromPairs.kt" />
     <MESSAGE value="create serialization test" />
@@ -529,7 +528,8 @@
     <MESSAGE value="add stacks and graphs" />
     <MESSAGE value="add stacks and graphs all cracking tasks" />
     <MESSAGE value="add topological algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="add topological algorithm" />
+    <MESSAGE value="add Dijkstra algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Dijkstra algorithm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="571" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598899681310">
@@ -544,75 +544,75 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="859" y="185" width="760" height="724" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1602432051801" />
-    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1602421761482">
+    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1602444251773">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602421761482" />
+    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602444251773" />
     <state x="407" y="130" key="CommitChangelistDialog2/0.23.1680.941@0.23.1680.941" timestamp="1602140761203" />
-    <state width="1638" height="410" key="GridCell.Tab.0.bottom" timestamp="1602444168023">
+    <state width="1638" height="476" key="GridCell.Tab.0.bottom" timestamp="1602531692907">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="410" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602444168023" />
+    <state width="1638" height="476" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602531692907" />
     <state width="1208" height="246" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1602438838296" />
     <state width="1638" height="216" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1602016187905" />
     <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1599769277336" />
-    <state width="1638" height="410" key="GridCell.Tab.0.center" timestamp="1602444168022">
+    <state width="1638" height="476" key="GridCell.Tab.0.center" timestamp="1602531692905">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="410" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602444168022" />
+    <state width="1638" height="476" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602531692905" />
     <state width="1208" height="246" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1602438838294" />
     <state width="1638" height="216" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1602016187903" />
     <state width="1638" height="303" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1599769277334" />
-    <state width="1638" height="410" key="GridCell.Tab.0.left" timestamp="1602444168021">
+    <state width="1638" height="476" key="GridCell.Tab.0.left" timestamp="1602531692904">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="410" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602444168021" />
+    <state width="1638" height="476" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602531692904" />
     <state width="1208" height="246" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1602438838293" />
     <state width="1638" height="216" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1602016187903" />
     <state width="1638" height="303" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1599769277334" />
-    <state width="1638" height="410" key="GridCell.Tab.0.right" timestamp="1602444168022">
+    <state width="1638" height="476" key="GridCell.Tab.0.right" timestamp="1602531692906">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="410" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602444168022" />
+    <state width="1638" height="476" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602531692906" />
     <state width="1208" height="246" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1602438838295" />
     <state width="1638" height="216" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1602016187904" />
     <state width="1638" height="303" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1599769277335" />
-    <state width="576" height="541" key="GridCell.Tab.1.bottom" timestamp="1602441439333">
+    <state width="576" height="541" key="GridCell.Tab.1.bottom" timestamp="1602447857883">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="576" height="541" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602441439333" />
+    <state width="576" height="541" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1602447857883" />
     <state width="382" height="303" key="GridCell.Tab.1.bottom/0.23.1680.939@0.23.1680.939" timestamp="1599507114237" />
     <state width="1638" height="216" key="GridCell.Tab.1.bottom/0.23.1680.941@0.23.1680.941" timestamp="1602016188248" />
     <state width="1638" height="303" key="GridCell.Tab.1.bottom/0.23.1680.944@0.23.1680.944" timestamp="1599769279045" />
-    <state width="576" height="541" key="GridCell.Tab.1.center" timestamp="1602441439332">
+    <state width="576" height="541" key="GridCell.Tab.1.center" timestamp="1602447857882">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="576" height="541" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602441439332" />
+    <state width="576" height="541" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1602447857882" />
     <state width="382" height="303" key="GridCell.Tab.1.center/0.23.1680.939@0.23.1680.939" timestamp="1599507114236" />
     <state width="1638" height="216" key="GridCell.Tab.1.center/0.23.1680.941@0.23.1680.941" timestamp="1602016188247" />
     <state width="1638" height="303" key="GridCell.Tab.1.center/0.23.1680.944@0.23.1680.944" timestamp="1599769279044" />
-    <state width="576" height="541" key="GridCell.Tab.1.left" timestamp="1602441439331">
+    <state width="576" height="541" key="GridCell.Tab.1.left" timestamp="1602447857881">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="576" height="541" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602441439331" />
+    <state width="576" height="541" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1602447857881" />
     <state width="382" height="303" key="GridCell.Tab.1.left/0.23.1680.939@0.23.1680.939" timestamp="1599507114233" />
     <state width="1638" height="216" key="GridCell.Tab.1.left/0.23.1680.941@0.23.1680.941" timestamp="1602016188246" />
     <state width="1638" height="303" key="GridCell.Tab.1.left/0.23.1680.944@0.23.1680.944" timestamp="1599769279043" />
-    <state width="576" height="541" key="GridCell.Tab.1.right" timestamp="1602441439332">
+    <state width="576" height="541" key="GridCell.Tab.1.right" timestamp="1602447857882">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="576" height="541" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602441439332" />
+    <state width="576" height="541" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1602447857882" />
     <state width="382" height="303" key="GridCell.Tab.1.right/0.23.1680.939@0.23.1680.939" timestamp="1599507114237" />
     <state width="1638" height="216" key="GridCell.Tab.1.right/0.23.1680.941@0.23.1680.941" timestamp="1602016188247" />
     <state width="1638" height="303" key="GridCell.Tab.1.right/0.23.1680.944@0.23.1680.944" timestamp="1599769279044" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1602140768016">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1602444256948">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602140768016" />
-    <state x="496" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1602413669140">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602444256948" />
+    <state x="496" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1602521118556">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="496" y="317" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602413669140" />
+    <state x="496" y="317" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1602521118556" />
     <state x="496" y="317" key="com.intellij.ide.util.TipDialog/0.23.1680.939@0.23.1680.939" timestamp="1600169836511" />
     <state x="496" y="329" key="com.intellij.ide.util.TipDialog/0.23.1680.941@0.23.1680.941" timestamp="1597387447221" />
     <state x="623" y="449" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594493787161">
@@ -631,10 +631,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="248" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599494713417" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602432961737">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1602524580385">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602432961737" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1602524580385" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.944@0.23.1680.944" timestamp="1598452045500" />
   </component>
   <component name="XDebuggerManager">
@@ -889,11 +889,6 @@
           <url>file://$PROJECT_DIR$/src/crackin/Graphs/BfsRoad.kt</url>
           <line>32</line>
           <option name="timeStamp" value="154" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/crackin/Graphs/DijkstraAlgorithm.kt</url>
-          <line>54</line>
-          <option name="timeStamp" value="157" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
