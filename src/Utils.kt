@@ -305,6 +305,7 @@ class Queue<T> {
 data class GraphNode<T>(
     val value: T,
     var visited: Boolean = false,
+    var isBlack: Boolean = false,
     var adjacencs: MutableList<GraphNode<T>> = mutableListOf(),
     var left: GraphNode<T>? = null,
     var right: GraphNode<T>? = null,
@@ -320,7 +321,7 @@ data class GraphNode<T>(
     }
 
     fun showWithAdjacencs() {
-        print("(Node: $value, left: ${left?.value}, right: ${right?.value}), ")
+        print("(Node: $value, left: ${left?.value}, right: ${right?.value}, isBlack: ${isBlack}), ")
     }
 }
 
@@ -329,7 +330,6 @@ fun <T> showBinaryTree(head: GraphNode<T>) {
     for (nodes in list) {
         println(nodes.map { it.value }.joinToString(", "))
     }
-    println()
     for (nodes in list) {
         println(nodes.forEach { it.showWithAdjacencs() })
     }
@@ -471,21 +471,3 @@ fun <T> List<T>.toLinkedList(): LinkedList<T> {
     }
     return list
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
