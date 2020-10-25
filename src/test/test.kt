@@ -1,13 +1,9 @@
 package test
 
-import SingleLinkedList
-import sun.util.calendar.CalendarUtils.mod
-import java.util.*
 
 fun main() {
-    val a = "abcrrr"
-    val b = "cr"
-    println(a.indexOf(b))
+    val i = 0b10100
+    println((i and (i - 1)).toString(2))
 }
 
 class Test

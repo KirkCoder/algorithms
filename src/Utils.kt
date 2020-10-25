@@ -1,5 +1,6 @@
 import crackin.Graphs.getNodesList
 import tasks.Heap
+import java.lang.StringBuilder
 import java.math.BigInteger
 import java.util.*
 import kotlin.Comparator
@@ -470,4 +471,18 @@ fun <T> List<T>.toLinkedList(): LinkedList<T> {
         list.add(element)
     }
     return list
+}
+
+fun Int.toBinaryString(): String {
+    var tmp = this
+    val sb = StringBuilder()
+    while (tmp != 0) {
+        if (tmp % 2 == 0) {
+            sb.append(0)
+        } else {
+            sb.append(1)
+        }
+        tmp /= 2
+    }
+    return sb.toString().reversed()
 }

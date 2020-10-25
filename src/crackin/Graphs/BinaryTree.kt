@@ -15,8 +15,8 @@ fun main() {
     showList(listTree.getOrderedList())
 
     val tree = getBinarySearchWikiTree()
-//    tree.first[14]?.left = null
-//    tree.first[14]?.right = tree.first[13]
+    tree.first[14]?.left = null
+    tree.first[14]?.right = tree.first[13]
     val bt = BinaryTree(tree.second)
     showList(bt.getOrderedList())
     bt.delete(10)
@@ -86,18 +86,12 @@ class BinaryTree<T : Comparable<T>>() {
             nextLeft = nextLeft.left
         }
 
-        successor?.parent?.left = null
-        if (successor?.right != null) {
-            successor.parent?.left = successor.right
-            successor.right?.parent = successor.parent
-            successor.right = node.right
-            successor.right?.parent = successor
-        } else {
-            successor?.left = node.left
-            successor?.right = node.right
-            successor?.left?.parent = successor
-            successor?.right?.parent = successor
-        }
+        successor?.parent?.left = successor?.right
+        successor?.right?.parent = successor?.parent
+        successor?.left = node.left
+        successor?.right = node.right
+        successor?.left?.parent = successor
+        successor?.right?.parent = successor
         removeFromParent(parent, node, successor)
         invalidateHead(node, successor)
     }
