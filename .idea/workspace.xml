@@ -2,35 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/crackin/bytes/BinaryToString_5.2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crackin/bytes/Conversions_5.6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crackin/bytes/DrawLine_5.8.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crackin/bytes/FlipBitToWin_5.3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crackin/bytes/Insertion_5.1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crackin/bytes/NextNumber_5.4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crackin/bytes/PairwiseSwap_5.7.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Pazzles/Lockers.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Pazzles/SieveOfEratosthenes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Pazzles/TheHeavyPill_6.1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/BooleanEvaliation_8.14.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/Coins_8.11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/ComputePermutations_8.7.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/EghtQuines_8.12.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/GetSubSets_8.4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/MagicIndex_8.3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/MultyplyNumbers_8.5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/PaintFill_8.10.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/Parens_8.9.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/RobotInGreed_8.2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/StackOfBoxes_8.13.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/TowerOfChanoi_8.6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/crackin/Recursions/TripleStep_8.1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/GraphNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/GraphNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/META-INF/algorithms.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/Queue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/Queue$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SingleLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SingleLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SingleLinkedList$SingleLinkedListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SingleLinkedList$SingleLinkedListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SingleLinkedList$SingleLinkedListNodeIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SingleLinkedList$SingleLinkedListNodeIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/SingleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/Stack$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/Stack$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/UtilsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/UtilsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/BinaryTreeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/BinaryTreeKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/RedBlackTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/RedBlackTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/RedBlackTreeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/RedBlackTreeKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/tasks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/bytes/DrawLine_5_8Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/bytes/DrawLine_5_8Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crackin/Graphs/BinaryTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/crackin/Graphs/BinaryTree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crackin/Graphs/tasks" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,54 +69,54 @@
       <recent name="D:\Geek\algorithms\src\tasks" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.crackin.bytes.DrawLine_5_8Kt">
-    <configuration name="crackin.bytes.Conversions_5_6Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.test.TestKt">
+    <configuration name="crackin.Recursions.BooleanEvaliation_8_14Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crackin.bytes.Conversions_5_6Kt" />
+      <option name="MAIN_CLASS_NAME" value="crackin.Recursions.BooleanEvaliation_8_14Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="crackin.bytes.DrawLine_5_8Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="crackin.Recursions.Coins_8_11Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crackin.bytes.DrawLine_5_8Kt" />
+      <option name="MAIN_CLASS_NAME" value="crackin.Recursions.Coins_8_11Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="crackin.bytes.NextNumber_5_4Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="crackin.Recursions.EghtQuines_8_12Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crackin.bytes.NextNumber_5_4Kt" />
+      <option name="MAIN_CLASS_NAME" value="crackin.Recursions.EghtQuines_8_12Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="crackin.bytes.PairwiseSwap_5_7Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="sort.RadixSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crackin.bytes.PairwiseSwap_5_7Kt" />
+      <option name="MAIN_CLASS_NAME" value="sort.RadixSortKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.crackin.bytes.Conversions_5_6Kt" />
-      <item itemvalue="Kotlin.crackin.bytes.DrawLine_5_8Kt" />
-      <item itemvalue="Kotlin.crackin.bytes.NextNumber_5_4Kt" />
-      <item itemvalue="Kotlin.crackin.bytes.PairwiseSwap_5_7Kt" />
+      <item itemvalue="Kotlin.crackin.Recursions.BooleanEvaliation_8_14Kt" />
+      <item itemvalue="Kotlin.crackin.Recursions.Coins_8_11Kt" />
+      <item itemvalue="Kotlin.crackin.Recursions.EghtQuines_8_12Kt" />
+      <item itemvalue="Kotlin.sort.RadixSortKt" />
       <item itemvalue="Kotlin.test.TestKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.crackin.bytes.DrawLine_5_8Kt" />
-        <item itemvalue="Kotlin.crackin.bytes.PairwiseSwap_5_7Kt" />
-        <item itemvalue="Kotlin.crackin.bytes.Conversions_5_6Kt" />
         <item itemvalue="Kotlin.test.TestKt" />
-        <item itemvalue="Kotlin.crackin.bytes.NextNumber_5_4Kt" />
+        <item itemvalue="Kotlin.sort.RadixSortKt" />
+        <item itemvalue="Kotlin.crackin.Recursions.BooleanEvaliation_8_14Kt" />
+        <item itemvalue="Kotlin.crackin.Recursions.EghtQuines_8_12Kt" />
+        <item itemvalue="Kotlin.crackin.Recursions.Coins_8_11Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -182,13 +174,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551000252476</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add BreadthFirstSearch">
-      <created>1553194085310</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1553194085310</updated>
     </task>
     <task id="LOCAL-00011" summary="add Linked with revers">
       <created>1553415317346</created>
@@ -526,11 +511,17 @@
       <option name="project" value="LOCAL" />
       <updated>1602868083478</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="add bits tasks">
+      <created>1603636361112</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1603636361113</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create serialization test" />
     <MESSAGE value="create serialization proxy test" />
     <MESSAGE value="create custom thread executor" />
     <MESSAGE value="add base64 algorithm" />
@@ -555,7 +546,8 @@
     <MESSAGE value="add Dijkstra algorithm" />
     <MESSAGE value="add binary tree with deletion" />
     <MESSAGE value="add redBlackTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="add redBlackTree" />
+    <MESSAGE value="add bits tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bits tasks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="571" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598899681310">
@@ -566,85 +558,86 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="605" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1599076692033" />
-    <state x="273" y="326" width="760" height="724" key="#xdebugger.evaluate" timestamp="1603223369859">
+    <state x="322" y="59" width="760" height="724" key="#xdebugger.evaluate" timestamp="1604652598659">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="273" y="326" width="760" height="724" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1603223369859" />
-    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1602868083290">
+    <state x="322" y="59" width="760" height="724" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1604652598659" />
+    <state x="407" y="130" key="CommitChangelistDialog2" timestamp="1603636360656">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1602868083290" />
+    <state x="407" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1603636360656" />
     <state x="407" y="130" key="CommitChangelistDialog2/0.23.1680.941@0.23.1680.941" timestamp="1602140761203" />
-    <state width="778" height="242" key="GridCell.Tab.0.bottom" timestamp="1603573462535">
+    <state width="804" height="310" key="GridCell.Tab.0.bottom" timestamp="1604657128314">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="778" height="242" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603573462535" />
-    <state width="859" height="242" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1603225278381" />
+    <state width="804" height="310" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604657128314" />
+    <state width="397" height="310" key="GridCell.Tab.0.bottom/0.23.1680.939@0.23.1680.939" timestamp="1604651074680" />
     <state width="1638" height="326" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1603138240708" />
     <state width="1638" height="303" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1599769277336" />
-    <state width="778" height="242" key="GridCell.Tab.0.center" timestamp="1603573462534">
+    <state width="804" height="310" key="GridCell.Tab.0.center" timestamp="1604657128313">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="778" height="242" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603573462534" />
-    <state width="859" height="242" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1603225278380" />
+    <state width="804" height="310" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604657128313" />
+    <state width="397" height="310" key="GridCell.Tab.0.center/0.23.1680.939@0.23.1680.939" timestamp="1604651074679" />
     <state width="1638" height="326" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1603138240707" />
     <state width="1638" height="303" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1599769277334" />
-    <state width="778" height="242" key="GridCell.Tab.0.left" timestamp="1603573462533">
+    <state width="804" height="310" key="GridCell.Tab.0.left" timestamp="1604657128312">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="778" height="242" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603573462533" />
-    <state width="859" height="242" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1603225278379" />
+    <state width="804" height="310" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604657128312" />
+    <state width="1240" height="310" key="GridCell.Tab.0.left/0.0.1680.1050@0.23.1680.939" timestamp="1604651073627" />
+    <state width="397" height="310" key="GridCell.Tab.0.left/0.23.1680.939@0.23.1680.939" timestamp="1604651074678" />
     <state width="1638" height="326" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1603138240707" />
     <state width="1638" height="303" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1599769277334" />
-    <state width="778" height="242" key="GridCell.Tab.0.right" timestamp="1603573462535">
+    <state width="804" height="310" key="GridCell.Tab.0.right" timestamp="1604657128314">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="778" height="242" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603573462535" />
-    <state width="859" height="242" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1603225278380" />
+    <state width="804" height="310" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604657128314" />
+    <state width="397" height="310" key="GridCell.Tab.0.right/0.23.1680.939@0.23.1680.939" timestamp="1604651074680" />
     <state width="1638" height="326" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1603138240708" />
     <state width="1638" height="303" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1599769277335" />
-    <state width="778" height="242" key="GridCell.Tab.1.bottom" timestamp="1603573462537">
+    <state width="1638" height="310" key="GridCell.Tab.1.bottom" timestamp="1604657128310">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="778" height="242" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1603573462537" />
-    <state width="576" height="300" key="GridCell.Tab.1.bottom/0.23.1680.939@0.23.1680.939" timestamp="1602739032022" />
+    <state width="1638" height="310" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604657128310" />
+    <state width="397" height="310" key="GridCell.Tab.1.bottom/0.23.1680.939@0.23.1680.939" timestamp="1604651075291" />
     <state width="1638" height="216" key="GridCell.Tab.1.bottom/0.23.1680.941@0.23.1680.941" timestamp="1602016188248" />
     <state width="1638" height="303" key="GridCell.Tab.1.bottom/0.23.1680.944@0.23.1680.944" timestamp="1599769279045" />
-    <state width="778" height="242" key="GridCell.Tab.1.center" timestamp="1603573462536">
+    <state width="1638" height="310" key="GridCell.Tab.1.center" timestamp="1604657128309">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="778" height="242" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1603573462536" />
-    <state width="576" height="300" key="GridCell.Tab.1.center/0.23.1680.939@0.23.1680.939" timestamp="1602739032021" />
+    <state width="1638" height="310" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604657128309" />
+    <state width="397" height="310" key="GridCell.Tab.1.center/0.23.1680.939@0.23.1680.939" timestamp="1604651075290" />
     <state width="1638" height="216" key="GridCell.Tab.1.center/0.23.1680.941@0.23.1680.941" timestamp="1602016188247" />
     <state width="1638" height="303" key="GridCell.Tab.1.center/0.23.1680.944@0.23.1680.944" timestamp="1599769279044" />
-    <state width="778" height="242" key="GridCell.Tab.1.left" timestamp="1603573462536">
+    <state width="1638" height="310" key="GridCell.Tab.1.left" timestamp="1604657128308">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="778" height="242" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1603573462536" />
-    <state width="576" height="300" key="GridCell.Tab.1.left/0.23.1680.939@0.23.1680.939" timestamp="1602739032021" />
+    <state width="1638" height="310" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604657128308" />
+    <state width="397" height="310" key="GridCell.Tab.1.left/0.23.1680.939@0.23.1680.939" timestamp="1604651075289" />
     <state width="1638" height="216" key="GridCell.Tab.1.left/0.23.1680.941@0.23.1680.941" timestamp="1602016188246" />
     <state width="1638" height="303" key="GridCell.Tab.1.left/0.23.1680.944@0.23.1680.944" timestamp="1599769279043" />
-    <state width="778" height="242" key="GridCell.Tab.1.right" timestamp="1603573462537">
+    <state width="1638" height="310" key="GridCell.Tab.1.right" timestamp="1604657128310">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="778" height="242" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1603573462537" />
-    <state width="576" height="300" key="GridCell.Tab.1.right/0.23.1680.939@0.23.1680.939" timestamp="1602739032022" />
+    <state width="1638" height="310" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604657128310" />
+    <state width="397" height="310" key="GridCell.Tab.1.right/0.23.1680.939@0.23.1680.939" timestamp="1604651075291" />
     <state width="1638" height="216" key="GridCell.Tab.1.right/0.23.1680.941@0.23.1680.941" timestamp="1602016188247" />
     <state width="1638" height="303" key="GridCell.Tab.1.right/0.23.1680.944@0.23.1680.944" timestamp="1599769279044" />
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1602868086665">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2" timestamp="1603636364667">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1602868086665" />
-    <state x="496" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1603636328128">
+    <state x="440" y="266" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1603636364667" />
+    <state x="496" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1604687898302">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="496" y="317" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1603636328128" />
+    <state x="496" y="317" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604687898302" />
     <state x="496" y="317" key="com.intellij.ide.util.TipDialog/0.23.1680.939@0.23.1680.939" timestamp="1600169836511" />
     <state x="496" y="329" key="com.intellij.ide.util.TipDialog/0.23.1680.941@0.23.1680.941" timestamp="1597387447221" />
-    <state x="495" y="294" width="689" height="462" key="find.popup" timestamp="1603015926990">
+    <state x="495" y="294" width="689" height="462" key="find.popup" timestamp="1604252342846">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="495" y="294" width="689" height="462" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603015926990" />
+    <state x="495" y="294" width="689" height="462" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604252342846" />
     <state x="565" y="165" key="refactoring.ChangeSignatureDialog" timestamp="1602267311076">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -653,10 +646,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="248" key="run.anything.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1599494713417" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1603015822474">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1604655987597">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603015822474" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604655987597" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.23.1680.944@0.23.1680.944" timestamp="1598452045500" />
   </component>
   <component name="XDebuggerManager">
@@ -828,11 +821,6 @@
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/test.kt</url>
-          <line>6</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/crackin/StacksAndQueues/SetOfStacks_3.3.kt</url>
           <line>221</line>
           <option name="timeStamp" value="130" />
@@ -921,6 +909,46 @@
           <url>file://$PROJECT_DIR$/src/crackin/bytes/NextNumber_5.4.kt</url>
           <line>14</line>
           <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/crackin/Recursions/TripleStep_8.1.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/crackin/Recursions/MultyplyNumbers_8.5.kt</url>
+          <line>52</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/crackin/Recursions/Parens_8.9.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/crackin/Recursions/PaintFill_8.10.kt</url>
+          <line>54</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/crackin/Recursions/PaintFill_8.10.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/sort/RadixSort.kt</url>
+          <line>45</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/sort/RadixSort.kt</url>
+          <line>21</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/sort/RadixSort.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="204" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
