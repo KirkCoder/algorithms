@@ -1,7 +1,6 @@
 package crackin.LinkList
 
 import SingleLinkedList
-import sun.util.calendar.CalendarUtils.mod
 
 //Loop Detection: Given a circular linked list, implement an algorithm that returns the node at the beginning of the loop.
 //DEFINI TION
@@ -22,7 +21,6 @@ fun main() {
     list.add(SingleLinkedList.Node('O'))
     list.add(SingleLinkedList.Node('E'))
     list.add(node)
-    println(mod(7, 2))
     println(findCircleStartInListSmart(list)?.value)
 }
 

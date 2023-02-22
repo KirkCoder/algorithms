@@ -1,8 +1,5 @@
 package test;
 
-import com.sun.istack.internal.NotNull;
-
-import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.BlockingQueue;
@@ -43,7 +40,7 @@ public class CustomExecutor {
 
     private static class Worker {
 
-        public Worker(int threadsCount, @NotNull BlockingQueue<Task> queue) {
+        public Worker(int threadsCount, BlockingQueue<Task> queue) {
             if (threadsCount <= 0) throw new IllegalArgumentException("Invalid thread count");
             System.out.println("threads count: " + threadsCount);
             for (int i = 0; i < threadsCount; i++) {
@@ -51,7 +48,7 @@ public class CustomExecutor {
             }
         }
 
-        private void createThread(@NotNull BlockingQueue<Task> queue) {
+        private void createThread(BlockingQueue<Task> queue) {
             Thread thread = new Thread(new CycleRunnable(queue));
             thread.start();
         }

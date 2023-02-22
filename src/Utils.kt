@@ -18,6 +18,10 @@ fun showArray(array: IntArray) {
     showIterable(array.iterator())
 }
 
+fun showArray(array: CharArray) {
+    showIterable(array.iterator())
+}
+
 fun <T> showIterable(iterator: Iterator<T>) {
     while (iterator.hasNext()) {
         print("${iterator.next()}, ")
@@ -72,6 +76,16 @@ fun showMatrix(arr: Array<Array<Int>>) {
         for (int in ints) {
             print("$int  ")
             if (int < 10) print(" ")
+        }
+        println()
+    }
+    println()
+}
+
+fun showMatrix(arr: Array<CharArray>) {
+    for (ints in arr) {
+        for (int in ints) {
+            print("$int  ")
         }
         println()
     }
