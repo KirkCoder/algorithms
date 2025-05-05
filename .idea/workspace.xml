@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="554c3a1b-7600-4502-83d9-69e22fa3adb3" name="Default Changelist" comment="add medium tasks">
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Token.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeNode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tasks/SMR.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/tets.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/kotlinx_coroutines_core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/yatool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coroutines/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/Db.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/AnagramKtKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/AnagramKtKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/CoinCountKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/CoinCountKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/FibRecursKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/FibRecursKt.class" afterDir="false" />
@@ -54,7 +56,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/CheckSubTree_4_10Kt$isSubTree2$secondTree$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/CheckSubTree_4_10Kt$isSubTree2$secondTree$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/CheckSubTree_4_10Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/CheckSubTree_4_10Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/DijNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/DijNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/DijkstraAlgorithmKt$getPriorityQueue$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/DijkstraAlgorithmKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/DijkstraAlgorithmKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/Direction$Left.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/Direction$Left.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/Direction$Right.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/crackin/Graphs/Direction$Right.class" afterDir="false" />
@@ -182,7 +183,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/graph/TreeFromArrayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/graph/TreeFromArrayKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/graph/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/graph/Utils.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/MaxQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/MaxQueue$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/MaxQueue$max$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/MaxQueue$max$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/MaxQueue$max$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/MaxQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/MaxQueue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/Minimum_Size_Subarray_SumKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Minimum_Size_Subarray_SumKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/Reorganize_StringKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/Reorganize_StringKt.class" afterDir="false" />
@@ -194,7 +195,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Divide_Two_IntegersKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Divide_Two_IntegersKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Find_First_and_Last_Position_of_Element_in_Sorted_ArrayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Find_First_and_Last_Position_of_Element_in_Sorted_ArrayKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Next_PermutationKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Next_PermutationKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/PermutationsKt$main$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/PermutationsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/PermutationsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Pow_x__n_Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Pow_x__n_Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Trapping_Rain_WaterKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/leetcode/facebook/Trapping_Rain_WaterKt.class" afterDir="false" />
@@ -275,7 +275,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/SerializableWithProxyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/SerializableWithProxyClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Serialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/Serialization.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/TestKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/test/VolatileBugTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/test/VolatileBugTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/y/m/FindLastElementInLinkedListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/y/m/FindLastElementInLinkedListKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/y/m/Foot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/y/m/Foot.class" afterDir="false" />
@@ -306,11 +305,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/y/m/StateMachine$State$Second.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/y/m/StateMachine$State$Second.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/y/m/StateMachine$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/y/m/StateMachine$State.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/algorithms/y/m/StateMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/y/m/StateMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crackin/LinkList/LoopDetection_2.8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/crackin/LinkList/LoopDetection_2.8.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/CustomExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/CustomExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tets.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,8 +319,8 @@
       <list>
         <option value="Kotlin Object" />
         <option value="package-info" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -343,33 +340,57 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="1UnzWUwibwrUPj0XrVRhN5ZDfsy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sokolov-k-o/apps/algorithms&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.DbKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.TestKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sokolov-k-o/apps/algorithms",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Geek\algorithms\src\tasks" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/crackin/multythreading" />
       <recent name="$PROJECT_DIR$/src/crackin/Graphs" />
       <recent name="$PROJECT_DIR$/src/crackin/DijkstraExample" />
       <recent name="$PROJECT_DIR$/src/crackin/DijkstraGraphs" />
-      <recent name="$PROJECT_DIR$/src/crackin/StacksAndQueues" />
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.TestKt">
+    <configuration name="DbKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="db.DbKt" />
+      <module name="algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coroutines.MainKt" />
+      <module name="algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatrixRotationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tasks.MatrixRotationKt" />
       <module name="algorithms" />
@@ -384,20 +405,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TokenKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TokenKt" />
-      <module name="algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YaKontestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="YaKontestKt" />
-      <module name="algorithms" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ZerosInFactorial_16_5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="crackin.moderate.ZerosInFactorial_16_5Kt" />
       <module name="algorithms" />
@@ -406,19 +413,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.ZerosInFactorial_16_5Kt" />
+      <item itemvalue="Kotlin.DbKt" />
+      <item itemvalue="Kotlin.MainKt" />
       <item itemvalue="Kotlin.MatrixRotationKt" />
       <item itemvalue="Kotlin.TestKt" />
-      <item itemvalue="Kotlin.YaKontestKt" />
-      <item itemvalue="Kotlin.TokenKt" />
+      <item itemvalue="Kotlin.ZerosInFactorial_16_5Kt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.DbKt" />
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.ZerosInFactorial_16_5Kt" />
         <item itemvalue="Kotlin.MatrixRotationKt" />
-        <item itemvalue="Kotlin.YaKontestKt" />
-        <item itemvalue="Kotlin.TokenKt" />
       </list>
     </recent_temporary>
   </component>
@@ -1255,6 +1262,11 @@
           <url>file://$PROJECT_DIR$/src/Token.kt</url>
           <line>43</line>
           <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.8.1/kotlinx-coroutines-core-1.8.1-sources.jar!/commonMain/Builders.common.kt</url>
+          <line>146</line>
+          <option name="timeStamp" value="281" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

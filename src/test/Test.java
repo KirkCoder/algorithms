@@ -1,6 +1,7 @@
 package test;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Test {
 
@@ -13,4 +14,9 @@ public class Test {
         list.add(null);
         return list.get(0);
     }
+    
+}
+
+class Solution {
+
 }
